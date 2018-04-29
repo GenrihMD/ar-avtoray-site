@@ -1,35 +1,84 @@
 let path = require('path');
+let HtmlWebPackPlugin = require('html-webpack-plugin');
+let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-module.exports = {
-  entry: ['babel-polyfill', './src/js/main.js'],
+let config = {
+  entry: './src/app/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/main.js',
-    publicPath: '/dist'
+    filename: './app/main.js',
+    publicPath: '/'
+  },
+  devServer: {
+    overlay: true
   },
   module: {
     rules: [
       {
         test: /\.js$/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options: { presets: ['es2015'] }
+          options: {
+            'presets': [
+              'env',
+              'es2015',
+              'stage-2'
+            ]
+          }
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|sass)$/,
+        exclude: /node_modules/,
         use: [
           {
-            loader: 'style-loader' // creates style nodes from JS strings
+            loader: 'file-loader',
+            options: {
+              name: '[name].css'
+            }
           },
           {
-            loader: 'css-loader' // translates CSS into CommonJS
+            loader: 'extract-loader'
           },
           {
-            loader: 'sass-loader' // compiles Sass to CSS
+            loader: 'css-loader'
+          },
+          {
+            loader: 'postcss-loader'
+          },
+          {
+            loader: 'sass-loader'
           }
         ]
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {minimize: true}
+          }
+        ]
+      },
+      {
+        test: /\.styl$/,
+        loader: 'style!css!autoprefixer?browsers=last 2 versions!stylus?resolve url'
+      },
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebPackPlugin(),
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      chunkFilename: '[id].css'
+    })
+  ]
 };
+
+module.exports = config;
+
