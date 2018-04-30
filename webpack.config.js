@@ -56,26 +56,37 @@ let config = {
         test: /\.html$/,
         use: [
           {
-            loader: 'html-loader',
+            loader: 'file-loader',
             options: {minimize: true}
           }
         ]
       },
       {
         test: /\.styl$/,
-        loader: 'style!css!autoprefixer?browsers=last 2 versions!stylus?resolve url'
+        use: {
+          loader: 'style!css!autoprefixer?browsers=last 2 versions!stylus?resolve url'
+        }
       },
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader']
-      }
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        exclude: [/node_modules/],
+        options: {
+          loaders: {
+            scss: 'vue-style-loader!css-loader!sass-loader',
+            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+          }
+        }
+      },
     ]
   },
   plugins: [
-    new HtmlWebPackPlugin(),
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css'
+    new HtmlWebPackPlugin({
+      template: './src/index.html'
     })
   ]
 };
