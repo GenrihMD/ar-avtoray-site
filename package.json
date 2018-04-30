@@ -2,11 +2,9 @@
   "name": "Avtoray",
   "description": "Is avtoray.ru site.",
   "scripts": {
-    "webpack": "webpack",
     "dev": "webpack-dev-server --mode development --progress --hot --open",
-    "build": "webpack --mode production --progress",
-    "gulp": "gulp watch",
-    "watch": "gulp watch & webpack --mode production --progress --watch"
+    "build": "gulp build & webpack --mode production --progress",
+    "watch": "gulp watch & webpack --mode production --watch"
   },
   "keywords": [],
   "author": "Ale Lmn",
@@ -17,6 +15,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
+    "browser-sync": "^2.24.1",
     "css-flip": "^0.5.0",
     "css-loader": "^0.28.11",
     "csso-cli": "^1.1.0",

@@ -7,7 +7,9 @@ let config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: './app/main.js',
-    publicPath: '/'
+    publicPath: '/',
+    hotUpdateChunkFilename: './../hot/hot-update.js',
+    hotUpdateMainFilename: './../hot/hot-update.json'
   },
   devServer: {
     overlay: true
@@ -84,11 +86,11 @@ let config = {
       },
     ]
   },
-  plugins: [
-    new HtmlWebPackPlugin({
-      template: './src/index.html'
-    })
-  ]
+  // plugins: [
+  //   new HtmlWebPackPlugin({
+  //     template: './src/index.html'
+  //   })
+  // ]
 };
 
 module.exports = config;

@@ -5,6 +5,7 @@ let autoprefixer = require('gulp-autoprefixer');
 let plumber = require('gulp-plumber');
 let notify = require('gulp-notify');
 let pug = require('gulp-pug');
+let browserSync = require("browser-sync").create();
 
 gulp.task('sass', function() {
   return gulp.src('./src/styles/*.scss')
@@ -32,8 +33,14 @@ gulp.task('copy', () => {
     '!./src/**/*.pug'
   ], {
     dot: true
-  }).pipe(gulp.dest('./dist/.'))});
+  }).pipe(gulp.dest('./dist/.'));});
 
 gulp.task('watch', function() {
+  browserSync.init({
+    server: {
+      baseDir: './dist'
+    }
+  });
   gulp.watch('./src/**/*', ['sass','pug','copy']);
+  gulp.watch('./src/**/*').on('change', browserSync.reload);;
 });
