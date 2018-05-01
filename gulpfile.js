@@ -1,22 +1,25 @@
-let gulp = require('gulp');
-let sass = require('gulp-sass');
-let autoprefixer = require('gulp-autoprefixer');
-let minify = require('gulp-minify');
-let plumber = require('gulp-plumber');
-let notify = require('gulp-notify');
-let pug = require('gulp-pug');
-let browserSync = require("browser-sync").create();
+let gulp = require('gulp'),
+  sass = require('gulp-sass'),
+  autoprefixer = require('gulp-autoprefixer'),
+  plumber = require('gulp-plumber'),
+  postcss = require('gulp-postcss'),
+  postcssClean = require('postcss-clean'),
+  postcssMergeRules = require('postcss-merge-rules'),
+  pug = require('gulp-pug'),
+  browserSync = require("browser-sync").create();
+// minify = require('gulp-minify'),
+// notify = require('gulp-notify'),
 
 gulp.task('sass', function() {
+  let postCSSProcessors = [
+    postcssMergeRules,
+    postcssClean
+  ];
   return gulp.src('./src/styles/*.sass')
     .pipe(plumber())
-    .pipe(sass()
-      .on('error', sass.logError)
-    )
-    .pipe(autoprefixer({
-      browsers: ['last 5 versions', 'opera 12', '> 1% in RU', 'ie 8']
-    }))
-    .pipe(minify())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({browsers: ['last 5 versions', 'opera 12', '> 1% in RU', 'ie 8']}))
+    .pipe(postcss(postCSSProcessors))
     .pipe(gulp.dest('./dist/styles/.'));
 });
 
