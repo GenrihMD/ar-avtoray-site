@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --progress --hot --open",
     "build": "gulp build & webpack --mode production --progress",
-    "watch": "gulp watch & webpack --mode production --watch"
+    "watch": "gulp watch & webpack --mode production --watch",
+    "clean watch": "gulp watch 1>> ./log/gulp-watch.log 2>> ./log/gulp-watch.error & webpack --mode production --watch >> ./log/webpack.log 2>> ./log/webpack.error"
   },
   "keywords": [],
   "author": "Ale Lmn",
@@ -25,6 +26,7 @@
     "file-loader": "^1.1.11",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-minify": "^2.1.0",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
     "gulp-pug": "^4.0.1",

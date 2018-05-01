@@ -1,0 +1,51 @@
+.link-type-a,
+.link-type-b,
+.link-type-c
+  font-family: Circe, sans-serif
+  cursor: pointer
+
+.link-type-a
+  color: #002b5a
+  font-size: 14px
+  font-weight: 700
+  &:hover
+    color: #dc291a
+  &:active
+    color: #b00e00
+
+.link-type-b
+  color: #bec8d5
+  font-size: 12px
+  font-weight: 400
+  &:hover
+    color: #0052ac
+  &:active
+    color: #002b5a
+
+.link-type-c
+  display: flex
+  align-items: center
+  color: #bec8d5
+  font-size: 12px
+  font-weight: 400
+  &:after
+    content: ' '
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAdUlEQVQYV2NkQAJ7j16TB3GdrbUewoQZYYz9x6/E/2dkbATxGf//r3e01FkIZjf8/89ke/LaXIb//xmcLXUSQYJ7j1+Zz8DIyHDYXCuZcd+JK/f+/2dscrbUXoBi3fGrCYyM/+sY9x+/ruBoqfkAWRJh7XUFANLmKjtUjU+lAAAAAElFTkSuQmCC")
+    background-position: center center
+    background-repeat: no-repeat
+    margin-left: 8px
+    height: 3px
+    width: 8px
+  &:hover
+    color: #0052ac
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAZElEQVQYV2NkQAZBa+XB3HXBD2HCjHD54DXxDP8ZGsF8RoZ6hrUhCyHMhgYmhks6cyE6QxLBdNCa+WBa70oyI0PQmnsMDP+aGNaFLUC1blUCAwNTHSNDwHIFhg2RD1AkYRygHADxPRn74koQpAAAAABJRU5ErkJggg==")
+  &:active
+    color: #002b5a
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAF0lEQVQYV2Nk0IqqZ8ADGBl0ohrwKQAAXm0CDBj2kKwAAAAASUVORK5CYII=")
+  &.set
+    &:after
+      transform: scaleY(-1)
+
+

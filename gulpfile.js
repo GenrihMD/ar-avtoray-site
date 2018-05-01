@@ -1,14 +1,14 @@
 let gulp = require('gulp');
 let sass = require('gulp-sass');
 let autoprefixer = require('gulp-autoprefixer');
-// let minify = require('gulp-minify');
+let minify = require('gulp-minify');
 let plumber = require('gulp-plumber');
 let notify = require('gulp-notify');
 let pug = require('gulp-pug');
 let browserSync = require("browser-sync").create();
 
 gulp.task('sass', function() {
-  return gulp.src('./src/styles/*.scss')
+  return gulp.src('./src/styles/*.sass')
     .pipe(plumber())
     .pipe(sass()
       .on('error', sass.logError)
@@ -16,6 +16,7 @@ gulp.task('sass', function() {
     .pipe(autoprefixer({
       browsers: ['last 5 versions', 'opera 12', '> 1% in RU', 'ie 8']
     }))
+    .pipe(minify())
     .pipe(gulp.dest('./dist/styles/.'));
 });
 
@@ -42,5 +43,5 @@ gulp.task('watch', function() {
     }
   });
   gulp.watch('./src/**/*', ['sass','pug','copy']);
-  gulp.watch('./src/**/*').on('change', browserSync.reload);;
+  gulp.watch('./dist/**/*').on('change', browserSync.reload);;
 });
