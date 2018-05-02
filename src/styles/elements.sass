@@ -49,3 +49,113 @@
       transform: scaleY(-1)
 
 
+.link-phone-in-head
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  padding: 11px 11px 10px
+  border-radius: 50em
+  border: 1px solid #d7dee5
+  color: #002b5a
+  font-family: Circe, sans-serif
+  font-size: 16px
+  font-weight: 700
+  cursor: pointer
+  &:hover
+    border-color: transparent
+    background-color: #0052ac
+    color: #ffffff
+  &:active
+    background-color: #002b5a
+  .text
+    display: none
+  .space
+    letter-spacing: 3px
+  @media screen and (min-width: 750px)
+    padding: 11px 24px 10px
+    .text
+      display: inline
+    img
+      display: none
+
+.button-type-a
+  position: relative
+  border-radius: 3px
+  padding: 10px 62px 10px 8px
+  border: 1px solid #d7dee5
+  color: #000000
+  font-family: Circe, sans-serif
+  font-size: 14px
+  font-weight: 400
+  cursor: default
+  transition: all 0.1s
+  &:hover
+    border: 1px solid #002b5a
+  &:active
+    border-color: transparent
+    background-color: #002b5a
+    color: #ffffff
+  .close-x
+    display: none
+    transition: all 0.1s
+  &.set
+    border-color: transparent
+    color: #ffffff
+    background-color: #002b5a
+    .close-x
+      position: absolute
+      display: flex
+      justify-content: center
+      align-items: center
+      height: calc(100% + 2px)
+      width: 24px
+      left: auto
+      top: -1px
+      right: -1px
+      border-radius: 0 3px 3px 0
+    &:hover
+      .close-x
+        background-color: #dc291a
+    &:active
+      background-color: #dc291a
+      .close-x
+        background-color: #dc291a
+  &.non-active
+    color: #bec8d5
+    border-radius: 3px
+    border: 1px solid #d7dee5
+    background-color: #fafbfc
+
+
+.button-type-b
+  border-radius: 3px
+  background-color: #0079ff
+  color: #ffffff
+  font-family: Circe, sans-serif
+  text-align: center
+  font-size: 14px
+  font-weight: 400
+  padding: 8px 20px 8px 21px
+  cursor: default
+  &:hover
+    background-color: #0052ac
+  &:active
+    background-color: #002b5a
+
+.button-type-c
+  border-radius: 3px
+  border: 1px solid #d7dee5
+  padding: 8px 20px 8px 21px
+  color: #dc291a
+  text-align: center
+  font-family: Circe, sans-serif
+  font-size: 14px
+  font-weight: 400
+  &:hover
+    border: 1px solid #dc291a
+  &:active
+    border: 1px solid #b00e00
+    color: #b00e00
+
+.button-type-d
+
