@@ -1,8 +1,29 @@
 .link-type-a,
 .link-type-b,
-.link-type-c
+.link-type-c,
+.link-type-d
   font-family: Circe, sans-serif
   cursor: pointer
+
+.button-type-a,
+.button-type-b,
+.button-type-c,
+.button-type-d,
+.button-type-e
+  cursor: default
+
+.link-type-a, .link-type-b,
+.link-type-c, .link-type-d,
+.button-type-a, .button-type-b,
+.button-type-c, .button-type-d,
+.button-type-e, .link-phone-in-head
+  -moz-user-select: none
+  -o-user-select: none
+  -khtml-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+    user-select: none
+
 
 .link-type-a
   color: #002b5a
@@ -48,6 +69,41 @@
     &:after
       transform: scaleY(-1)
 
+.link-type-d
+  display: flex
+  align-items: center
+  color: #bec8d5
+  font-size: 14px
+  font-weight: 400
+  &:after
+    content: ' '
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAcklEQVQYV2Pce/SavLO11kMGLAAkx7jvxNUHjP//1zta6ixEVrP/+JX4/4yMjYwgwb3Hr8xnYGRkOGyulQzi2568Npfh/38GZ0udRLACiKKrCYyM/+tA7P//GZucLbUXgNhwBSDO/uPXFUC0o6XmA5hGAOvsJ7gQwVj6AAAAAElFTkSuQmCC")
+    background-position: center center
+    background-repeat: no-repeat
+    margin-left: 8px
+    height: 3px
+    width: 8px
+  &:hover
+    color: #007aff
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAYklEQVQYV23NUQpAUBCF4X94sQt2hmyCFFFyNyHsjF14YXTHg5TzdOb01Qi1xgyy85daY6HSDWgZZf2YSlOgExvLc4YAIgq7Dya4wIX5AwxphtBYV3qcLL6+4EGJASf+reUGncMY9yfTApQAAAAASUVORK5CYII=")
+  &:active
+    color: #007aff
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAF0lEQVQYV2NkqPhfz4AHMDJU/W/ApwAAt1AD8glioHwAAAAASUVORK5CYII=")
+  &.set
+    color: #0052ac
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAZElEQVQYV2NkQAZBa+XB3HXBD2HCjHD54DXxDP8ZGsF8RoZ6hrUhCyHMhgYmhks6cyE6QxLBdNCa+WBa70oyI0PQmnsMDP+aGNaFLUC1blUCAwNTHSNDwHIFhg2RD1AkYRygHADxPRn74koQpAAAAABJRU5ErkJggg==")
+    &:hover
+      color: #000000
+      &:after
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAATUlEQVQYV13N0Q1AQBBF0UMjdIbog9CHoDGhE9lkNmHn582be5Op/KeJ+uRz9eEdlugzzrQnocYWYIjcI8ckXFhxFO96TElocRcw1/YFvLQJBvKO5eAAAAAASUVORK5CYII=')
+    &:active
+      &:after
+        width: 8px
+        height: 2px
+        background: #000
 
 .link-phone-in-head
   display: inline-flex
@@ -87,7 +143,6 @@
   font-family: Circe, sans-serif
   font-size: 14px
   font-weight: 400
-  cursor: default
   transition: all 0.1s
   &:hover
     border: 1px solid #002b5a
@@ -124,7 +179,9 @@
     color: #bec8d5
     border-radius: 3px
     border: 1px solid #d7dee5
-    background-color: #fafbfc
+    background-color: #fafbfc!important
+    .close-x
+      display: none !important
 
 
 .button-type-b
@@ -136,7 +193,6 @@
   font-size: 14px
   font-weight: 400
   padding: 8px 20px 8px 21px
-  cursor: default
   &:hover
     background-color: #0052ac
   &:active
@@ -158,4 +214,59 @@
     color: #b00e00
 
 .button-type-d
+  border-radius: 3px
+  background-color: #002b5a
+  color: #ffffff
+  font-family: Circe, sans-serif
+  font-size: 14px
+  font-weight: 700
+  padding: 16px 51px
+  text-align: center
+  &:hover
+    background-color: #0079ff
+  &:active
+    background-color: #0052ac
+
+.button-type-e
+  width: 100%
+  border-radius: 3px
+  border: 1px solid #d7dee5
+  color: #007aff
+  font-family: Circe, sans-serif
+  font-size: 14px
+  font-weight: 400
+  padding: 8px 0
+  text-align: center
+  &:hover
+    border: 1px solid #0079ff
+    color: #007aff
+  &:active
+    border: 1px solid #0052ac
+    color: #0052ac
+
+
+.filter-container
+  border: 1px solid #d7dee5
+  background-color: #ffffff
+  padding: 16px
+  header
+    height: 20px
+    .collapser
+      display: flex
+      align-content: flex-start
+      justify-content: flex-end
+    .title
+      display: flex
+      align-content: flex-start
+      align-items: center
+      height: 100%
+      color: #000000
+      font-family: Circe, sans-serif
+      font-size: 14px
+      font-weight: 700
+  .main
+    margin-top: 16px
+    padding: 0 10px
+  .filter-button
+    padding: 5px
 
