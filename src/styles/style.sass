@@ -10,8 +10,15 @@ header
   .row
     justify-content: space-between
     align-items: center
+  .menu-holder
+    @media(min-width: 992px)
+      flex: 1 1 auto
+      margin-left: 30px
   .menu-wrapper
+    height: 44px
     display: flex
+    @media screen and (min-width: 992px)
+      border-left: 1px solid #d7dee5
   .menu-burger
     width: 44px
     height: 44px
@@ -23,24 +30,50 @@ header
   .menu__item
     margin-left: 24px
     position: relative
+    display: flex
+    .link
+      &:hover
+        color: #0052ac
+        &.with-submenu:after
+          background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAAm0lEQVQYV2P8/////4ZpaxkCnEwYDDTkGZDBhRsPGTbuP8tQnxnEwLh+z+n/gfn9DAK8XAz95bEMCQF2YLXzNxxkKOpcwvDpy3eGtRMLGBjff/r6v6BjEcPCjYfBCsAK/zMwLNh4CM4HGcAIshoksmDDIYaCjsUMH798AysQ5ONm6CuLgdsAVwiSBLkpoXoGAxMjI8O8lnQUNwMAXT1BBQLiO7kAAAAASUVORK5CYII=')
     .menu_submenu
       position: absolute
-      top: -16px
-      left: -16px
+      top: 0
+      left: -18px
       display: none
       width: max-content
       border: 1px solid #d7dee5
       background-color: #ffffff
       box-shadow: 0 0 80px rgba(0, 43, 90, 0.08);
-      padding: 44px 16px 16px
+      padding: 33px 16px 16px
       z-index: 20
       .submenu__item
         display: inline
-    &:hover
+        padding-top: 8px
+        color: #96a7bb
+        font-family: Circe, sans-serif
+        font-size: 14px
+        font-weight: 400
+        line-height: 20px
+        cursor: pointer
+        &:hover
+          color: #0052ac
+        &:active
+          color: #002b5a
+    &:hover:not(.set)
       .link
         position: relative
         z-index: 30
       .menu_submenu
         display: flex
         flex-direction: column
+      .link
+        &.with-submenu:after
+          height: 2px
+          background: #002b5a
+        &:hover
+          color: #dc291a
+          &.with-submenu:after
+            background: #dc291a
+
 

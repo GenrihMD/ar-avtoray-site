@@ -1,5 +1,5 @@
-.link-type-a, .link-type-b,
-.link-type-c, .link-type-d, .link
+.link-type-a, .link-type-b, .link,
+.link-type-c, .link-type-d, .link-type-e
   font-family: Circe, sans-serif
   cursor: pointer
 
@@ -13,6 +13,7 @@
 
 .link-type-a, .link-type-b,
 .link-type-c, .link-type-d,
+.link-type-e,
 .button-type-a, .button-type-b,
 .button-type-c, .button-type-d,
 .button-type-e, .link-phone-in-head
@@ -110,7 +111,7 @@
   color: #002b5a
   font-size: 14px
   font-weight: 700
-  &:after
+  &.with-submenu:after
     content: ' '
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAAm0lEQVQYV2P8/////4ZpaxkCnEwYDDTkGZDBhRsPGTbuP8tQnxnEwLh+z+n/gfn9DAK8XAz95bEMCQF2YLXzNxxkKOpcwvDpy3eGtRMLGBjff/r6v6BjEcPCjYfBCsAK/zMwLNh4CM4HGcAIshoksmDDIYaCjsUMH798AysQ5ONm6CuLgdsAVwiSBLkpoXoGAxMjI8O8lnQUNwMAXT1BBQLiO7kAAAAASUVORK5CYII=")
     background-position: center center
@@ -120,22 +121,22 @@
     width: 10px
   &:hover
     color: #007aff
-    &:after
+    &.with-submenu::after
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAYklEQVQYV23NUQpAUBCF4X94sQt2hmyCFFFyNyHsjF14YXTHg5TzdOb01Qi1xgyy85daY6HSDWgZZf2YSlOgExvLc4YAIgq7Dya4wIX5AwxphtBYV3qcLL6+4EGJASf+reUGncMY9yfTApQAAAAASUVORK5CYII=")
   &:active
     color: #007aff
-    &:after
+    &.with-submenu::after
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAF0lEQVQYV2NkqPhfz4AHMDJU/W/ApwAAt1AD8glioHwAAAAASUVORK5CYII=")
   &.set
     color: #0052ac
-    &:after
+    &.with-submenu::after
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAZElEQVQYV2NkQAZBa+XB3HXBD2HCjHD54DXxDP8ZGsF8RoZ6hrUhCyHMhgYmhks6cyE6QxLBdNCa+WBa70oyI0PQmnsMDP+aGNaFLUC1blUCAwNTHSNDwHIFhg2RD1AkYRygHADxPRn74koQpAAAAABJRU5ErkJggg==")
     &:hover
       color: #000000
-      &:after
+      &.with-submenu::after
         background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAATUlEQVQYV13N0Q1AQBBF0UMjdIbog9CHoDGhE9lkNmHn582be5Op/KeJ+uRz9eEdlugzzrQnocYWYIjcI8ckXFhxFO96TElocRcw1/YFvLQJBvKO5eAAAAAASUVORK5CYII=')
     &:active
-      &:after
+      &.with-submenu::after
         width: 8px
         height: 2px
         background: #000
