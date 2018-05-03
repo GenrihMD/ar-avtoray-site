@@ -7,6 +7,7 @@
 
 header
   padding: 16px 0
+  position: relative
   .row
     justify-content: space-between
     align-items: center
@@ -16,9 +17,34 @@ header
       margin-left: 30px
   .menu-wrapper
     height: 44px
-    display: flex
+    display: none
     @media screen and (min-width: 992px)
+      display: flex
       border-left: 1px solid #d7dee5
+  .menu-burger.set+.menu-wrapper
+    position: absolute
+    display: flex
+    flex-direction: column
+    top: 100%
+    left: 0
+    width: 100%
+    .menu__item
+      display: flex
+      flex-direction: column
+      margin: 0
+      width: 100%
+      .link
+        display: block
+        width: 100%
+        text-align: center
+        &:after
+          right: 0
+          position: absolute
+          top: 6px
+      .menu_submenu
+        position: static
+        width: 100%
+        text-align: center
   .menu-burger
     width: 44px
     height: 44px
@@ -27,6 +53,10 @@ header
     display: flex
     justify-content: center
     align-items: center
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAKklEQVQ4T2Nk0I76z0AFwEg9g6jgGpARjFQyZ1AaNBprhGJ3MEb/YIs1AHWgCSfyTtLzAAAAAElFTkSuQmCC") center no-repeat
+    transition: all .3s
+    &.set
+      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAA3ElEQVQ4T42Syw2CQBRFzyQObO0DiTTgrwPdsrIErURLsAPtQNAGMFiIW8AEM3yUAYb4lpOcue/dewWO70F+QNobotOLofG2Y7LkDGIvcPwAWAAR0loZ4QJKr4AHhILylwDE1AhrUP5A2ktRbDYE90BqqxI0wer9u16pVJ/yA7twXH3pgg6pdx2s4XdyJxeTAhT5k5E9a5vWD2bpDXArxRhpzYfBphFKSU2p3ImqZU6dU3VTYU5/VI04WlDdIkNUVQEM0EBUjcp1LddqqyuHClTdOyKt9X8lTy/A7gNd3JZDnLduXQAAAABJRU5ErkJggg==") center no-repeat
   .menu__item
     margin-left: 24px
     position: relative
@@ -75,5 +105,4 @@ header
           color: #dc291a
           &.with-submenu:after
             background: #dc291a
-
 

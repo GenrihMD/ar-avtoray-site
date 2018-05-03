@@ -4,7 +4,9 @@ header.container
             img.d-none.d-md-block(src='img/logo.png')
             img.d-md-none(src='img/logo-mobile.png')
         .menu-holder
-            nav.menu-wrapper.d-none.d-lg-flex
+            .menu-burger.d-lg-none.by-click-changable.set
+                //img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAKklEQVQ4T2Nk0I76z0AFwEg9g6jgGpARjFQyZ1AaNBprhGJ3MEb/YIs1AHWgCSfyTtLzAAAAAElFTkSuQmCC')
+            nav.menu-wrapper.d-lg-flex
                 .menu__item.by-click-changable.by-mouseleave-resetable
                     .link.link-type-e.with-submenu Автомобили
                     .menu_submenu
@@ -13,11 +15,12 @@ header.container
                         .submenu__item Заявка на тест-драйв
                         .submenu__item Продать свой автомобиль
                         .submenu__item Обменять свой автомобиль
-                .menu__item.link-type-e Сервис
-                .menu__item.link-type-e Спецпредложения
-                .menu__item.link-type-e О компании
-            .menu-burger.d-lg-none
-                img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAKklEQVQ4T2Nk0I76z0AFwEg9g6jgGpARjFQyZ1AaNBprhGJ3MEb/YIs1AHWgCSfyTtLzAAAAAElFTkSuQmCC')
+                .menu__item
+                    .link-type-e.link Сервис
+                .menu__item
+                    .link-type-e.link Спецпредложения
+                .menu__item
+                    .link-type-e.link О компании
         .tel
             .link-phone-in-head
                 .text
