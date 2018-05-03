@@ -5,6 +5,7 @@
   font-family: Circe, sans-serif
   cursor: pointer
 
+
 .button-type-a,
 .button-type-b,
 .button-type-c,
@@ -78,6 +79,42 @@
   &:after
     content: ' '
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAcklEQVQYV2Pce/SavLO11kMGLAAkx7jvxNUHjP//1zta6ixEVrP/+JX4/4yMjYwgwb3Hr8xnYGRkOGyulQzi2568Npfh/38GZ0udRLACiKKrCYyM/+tA7P//GZucLbUXgNhwBSDO/uPXFUC0o6XmA5hGAOvsJ7gQwVj6AAAAAElFTkSuQmCC")
+    background-position: center center
+    background-repeat: no-repeat
+    margin-left: 8px
+    height: 3px
+    width: 8px
+  &:hover
+    color: #007aff
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAYklEQVQYV23NUQpAUBCF4X94sQt2hmyCFFFyNyHsjF14YXTHg5TzdOb01Qi1xgyy85daY6HSDWgZZf2YSlOgExvLc4YAIgq7Dya4wIX5AwxphtBYV3qcLL6+4EGJASf+reUGncMY9yfTApQAAAAASUVORK5CYII=")
+  &:active
+    color: #007aff
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAF0lEQVQYV2NkqPhfz4AHMDJU/W/ApwAAt1AD8glioHwAAAAASUVORK5CYII=")
+  &.set
+    color: #0052ac
+    &:after
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAZElEQVQYV2NkQAZBa+XB3HXBD2HCjHD54DXxDP8ZGsF8RoZ6hrUhCyHMhgYmhks6cyE6QxLBdNCa+WBa70oyI0PQmnsMDP+aGNaFLUC1blUCAwNTHSNDwHIFhg2RD1AkYRygHADxPRn74koQpAAAAABJRU5ErkJggg==")
+    &:hover
+      color: #000000
+      &:after
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAATUlEQVQYV13N0Q1AQBBF0UMjdIbog9CHoDGhE9lkNmHn582be5Op/KeJ+uRz9eEdlugzzrQnocYWYIjcI8ckXFhxFO96TElocRcw1/YFvLQJBvKO5eAAAAAASUVORK5CYII=')
+    &:active
+      &:after
+        width: 8px
+        height: 2px
+        background: #000
+
+.link-type-e
+  display: flex
+  align-items: center
+  color: #002b5a
+  font-size: 14px
+  font-weight: 700
+  &:after
+    content: ' '
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAiklEQVQYV1WOsQ3CQBAE55AgNW0gE3wnRmR8ginBHUAFuISPPjWlODF1kCIkDt0/GHuy0412VzC2/oxyY4h9un+U3qFU3ONF2Bx2LKQDHkDDEEPySl8DV6DgrXvB1Wtezxbk+A3KIphoBJarRiY19mhTQmbW8BdznQMNIAqcppvnosk2xeiDJY58ANHwJXl8bpqVAAAAAElFTkSuQmCC")
     background-position: center center
     background-repeat: no-repeat
     margin-left: 8px
@@ -183,7 +220,6 @@
     .close-x
       display: none !important
 
-
 .button-type-b
   border-radius: 3px
   background-color: #0079ff
@@ -243,7 +279,6 @@
   &:active
     border: 1px solid #0052ac
     color: #0052ac
-
 
 .filter-container
   border: 1px solid #d7dee5
