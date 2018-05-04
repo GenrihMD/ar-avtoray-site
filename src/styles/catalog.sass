@@ -1,0 +1,45 @@
+main
+  background-color: #fafbfc
+.catalog-container.col-12.col-lg-9
+  .catalog-sort
+    display: flex
+  .catalog-cards
+    display: flex
+    article.catalog-card
+      position: relative
+      width: 100%
+      .catalog-card__border
+        position: absolute
+      .catalog-card__content
+        .catalog-card__images
+          position: relative
+          img
+            width: 100%
+          .picker
+            position: absolute
+            display: flex
+            .dot
+              width: 8px
+              height: 8px
+              border-radius: 5px
+              background-color: #ffffff
+              opacity: 0.4
+              &.set
+                opacity: 1
+        .catalog-card__title
+          h1
+            color: #000000
+            font-family: Circe, sans-serif
+            font-size: 18px
+            font-weight: 700
+          .added-sets
+            display: none
+        .catalog-card__options
+          .year
+          .mileage
+          .power
+          .gearbox
+        .catalog-card__price
+          .now
+          .before
+        .catalog-card__on-credit
