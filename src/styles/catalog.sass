@@ -8,13 +8,30 @@ main
     article.catalog-card
       position: relative
       width: 100%
+      padding: 8px
+      @media screen and (min-width: 992px)
+        width: 50%
       .catalog-card__border
         position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        border: 1px solid #d7dee5
+        background-color: #fafbfc
+      &:hover .catalog-card__border
+        width: calc(100% + 40px)
+        height: calc(100% + 40px)
+        top: -20px
+        left: -20px
+        background-color: #ffffff
+        box-shadow: 0 0 80px rgba(0, 43, 90, 0.08);
       .catalog-card__content
         .catalog-card__images
           position: relative
           img
             width: 100%
+            height: 155px
           .picker
             position: absolute
             display: flex
@@ -36,9 +53,17 @@ main
             display: none
         .catalog-card__options
           .year
+            .icon
+              display: flex
           .mileage
+            .icon
+              display: flex
           .power
+            .icon
+              display: flex
           .gearbox
+            .icon
+              display: flex
         .catalog-card__price
           .now
           .before
