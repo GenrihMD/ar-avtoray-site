@@ -12,7 +12,7 @@ let gulp = require('gulp'),
 
 gulp.task('sass', function() {
   let postCSSProcessors = [
-    postcssMergeRules,
+    // postcssMergeRules,
     postcssClean
   ];
   return gulp.src('./src/styles/*.sass')

@@ -1,10 +1,11 @@
 main
   background-color: #fafbfc
-.catalog-container.col-12.col-lg-9
+.catalog-container
   .catalog-sort
     display: flex
   .catalog-cards
     display: flex
+    flex-wrap: wrap
     article.catalog-card
       position: relative
       width: 100%
@@ -19,19 +20,35 @@ main
         height: 100%
         border: 1px solid #d7dee5
         background-color: #fafbfc
-      &:hover .catalog-card__border
-        width: calc(100% + 40px)
-        height: calc(100% + 40px)
-        top: -20px
-        left: -20px
-        background-color: #ffffff
-        box-shadow: 0 0 80px rgba(0, 43, 90, 0.08);
+        transition: all .1s
       .catalog-card__content
+        position: relative
+        z-index: 19
+        display: flex
+        flex-direction: column
+        @media screen and (min-width: 750px)
+          flex-direction: row
+          align-items: center
+          .to-left
+            width: 286px
+          .to-right
+            flex: 1 1 auto
+            padding-left: 18px
+        @media screen and (min-width: 992px)
+          flex-direction: column
+          .to-right
+            padding-left: 0
+            width: 100%
+          .to-left
+            width: 100%
+            padding: 8px 0
         .catalog-card__images
           position: relative
           img
             width: 100%
             height: 155px
+            @media (min-width: 992px)
+              height: 230px
           .picker
             position: absolute
             display: flex
@@ -44,6 +61,9 @@ main
               &.set
                 opacity: 1
         .catalog-card__title
+          padding-top: 16px
+          display: flex
+          justify-content: space-between
           h1
             color: #000000
             font-family: Circe, sans-serif
@@ -51,20 +71,74 @@ main
             font-weight: 700
           .added-sets
             display: none
+            @media screen and (min-width: 750px)
+              display: inline-block
+              color: rgba(0, 43, 90, 0.4)
+              font-family: Circe, sans-serif
+              font-size: 16px
+              font-weight: 400
         .catalog-card__options
-          .year
+          display: flex
+          justify-content: space-between
+          flex-wrap: wrap
+          padding: 5px 0
+          border-top: 1px solid #d7dee5
+          border-bottom:  1px solid #d7dee5
+          .year, .mileage,
+          .power,.gearbox
+            display: flex
+            width: 50%
+            padding: 5px 11px
+            @media screen and (min-width: 750px)
+              width: auto
+              padding-left: 0
+              padding-right: 0
             .icon
               display: flex
-          .mileage
-            .icon
-              display: flex
-          .power
-            .icon
-              display: flex
-          .gearbox
-            .icon
-              display: flex
+              justify-content: center
+              align-items: center
+            .text
+              margin-left: 8px
+              color: #000000
+              font-family: Circe, sans-serif
+              font-size: 16px
+              font-weight: 400
         .catalog-card__price
+          display: flex
+          justify-content: space-between
+          align-items: center
+          padding: 15px
           .now
+            color: #000000
+            font-family: Circe, sans-serif
+            font-size: 24px
+            font-weight: 700
+            @media (min-width: 750px)
+              font-size: 36px
           .before
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 40%
+            height: 36px
+            border-radius: 3px
+            border: 1px solid #d7dee5
+            color: #99aabd
+            font-family: Circe, sans-serif
+            font-size: 14px
+            font-weight: 700
+            @media (min-width: 750px)
+              font-size: 20px
         .catalog-card__on-credit
+          display: none
+      &:hover
+        z-index: 25
+        .catalog-card__border
+          width: calc(100% + 40px)
+          height: calc(100% + 40px)
+          top: -20px
+          left: -20px
+          background-color: #ffffff
+          box-shadow: 0 0 80px rgba(0, 43, 90, 0.08)
+        article.catalog-card .catalog-card__content .catalog-card__title h1
+          color: #007aff
