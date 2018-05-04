@@ -310,3 +310,36 @@
   .filter-button
     padding: 5px
 
+.input-type-a
+  .wrapper
+    display: flex
+    align-items: baseline
+    border-radius: 3px
+    border: 1px solid #d7dee5
+    background-color: #fafbfc
+    padding: 10px 9px
+    .text
+      color: #000000
+      font-family: Circe, sans-serif
+      font-size: 14px
+      font-weight: 400
+    input
+      background: transparent
+      max-width: calc(100% - 18px)
+      border: none
+      outline: none
+      width: max-content
+      padding-left: 6px
+      color: #000000
+      font-family: Circe, sans-serif
+      font-size: 14px
+      font-weight: 400
+      &::placeholder
+        color: #bec8d5
+        font-family: Circe, sans-serif
+        font-size: 14px
+        font-weight: 400
+    &:hover
+      border: 1px solid #002b5a
+    &:active, &:focus, &.focus
+      border: 1px solid #002b5a
