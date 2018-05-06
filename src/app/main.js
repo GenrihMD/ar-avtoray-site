@@ -1,8 +1,10 @@
 import './plugins/vanilla.js';
-import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+// import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import './components.js';
 
-const getRealHeight = function (el) { return parseInt(getComputedStyle(el).height); };
+const getRealHeight = function (el) {
+  return parseInt(getComputedStyle(el).height);
+};
 const toggleSet = function (e) {
   let el = this || e;
   let isSet = el.classList.toggle('set');
@@ -10,7 +12,11 @@ const toggleSet = function (e) {
   if (needHideMain) spotMain(isSet);
   console.log(el, isSet, needHideMain);
 };
-const spotMain = function(determinant) {
+const unSet = function (e) {
+  let el = this || e;
+  el.classList.remove('set');
+};
+const spotMain = function (determinant) {
   if (determinant) {
     document
       .querySelectorAll('main')
@@ -21,7 +27,6 @@ const spotMain = function(determinant) {
       .forEach(x => x.classList.remove('collapsed'));
   }
 };
-const unSet = function () { this.classList.remove('set'); };
 const removeActive = function () {
   this.parents('.wrapper')
     .forEach(x => {
@@ -34,35 +39,45 @@ const setActive = function () {
     .forEach(x => x.classList.add('focus'));
   this.addEventListener('blur', removeActive);
 };
+const doEntrustHandling = function (el, handler) {
+  let ev = el.getAttribute('data-entrustby');
+  let selector = el.getAttribute('data-entrustto');
+  let subj = document.querySelectorAll(selector);
+  entrust(el, subj, ev, handler);
+};
+const entrust = function (obj, subj, ev, handler) {
+  subj = subj.isNodeList() ? subj : [subj];
+  entruster(obj, subj, ev, handler);
+};
+const entruster = function (obj, subjs, ev, handler) {
+  obj.addEventListener(ev, () => {
+    subjs.forEach(subj => handler(subj));
+  });
+};
 
-document.addEventListener('DOMContentLoaded', main);
-function main() {
+document
+  .addEventListener(
+    /* on */'DOMContentLoaded',
+    /* do */function () {
 
-  document
-    .querySelectorAll('.by-click-changable')
-    .addEventListener('click', toggleSet);
+      document
+        .querySelectorAll('.by-click-changable')
+        .addEventListener('click', toggleSet);
 
-  document
-    .querySelectorAll('.by-mouseleave-resetable')
-    .addEventListener('mouseleave', unSet);
+      document
+        .querySelectorAll('.by-mouseleave-resetable')
+        .addEventListener('mouseleave', unSet);
 
-  document
-    .querySelectorAll('.setter')
-    .forEach(x => {
-      let ev = x.getAttribute('data-setby');
-      let selector = x.getAttribute('data-seton');
-      let el = document.querySelectorAll(selector);
-      x.addEventListener(ev, () => {
-        el.forEach(e => toggleSet(e));
-      });
+      document
+        .querySelectorAll('.setToggler')
+        .forEach(x => doEntrustHandling(x, toggleSet));
+
+      document
+        .querySelectorAll('.filter-container .main')
+        .forEach(x => x.style.height = getRealHeight(x) + 'px');
+
+      document
+        .querySelectorAll('.input-type-a input')
+        .addEventListener('focus', setActive);
+
     });
-
-  document
-    .querySelectorAll('.filter-container .main')
-    .forEach(x => x.style.height = getRealHeight(x) + 'px');
-
-  document
-    .querySelectorAll('.input-type-a input')
-    .addEventListener('focus', setActive);
-
-}
