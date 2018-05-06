@@ -16,6 +16,16 @@ Element.prototype.parents = function (selector) {
   return elements;
 };
 
+Element.prototype.isNodeList =
+  function() {
+    return false;
+  };
+
+NodeList.prototype.isNodeList =
+HTMLCollection.prototype.isNodeList =
+  function(){
+    return true;
+  };
 
 // $.fn.on()
 NodeList.prototype.addEventListener = function(ev,li) {
