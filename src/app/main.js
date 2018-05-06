@@ -43,9 +43,13 @@ const doEntrustHandling = function (el, handler) {
   let ev = el.getAttribute('data-entrustby');
   let selector = el.getAttribute('data-entrustto');
   let subj = document.querySelectorAll(selector);
-  entrust(el, subj, ev, handler);
+  try { entrust(el, subj, ev, handler); }
+  catch (e){ console.error(e); }
 };
 const entrust = function (obj, subj, ev, handler) {
+  if (subj.isNodeList === undefined
+    ||subj.isNodeList === null)
+    throw new Error('Wrong type of subject');
   subj = subj.isNodeList() ? subj : [subj];
   entruster(obj, subj, ev, handler);
 };
