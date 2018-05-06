@@ -24,13 +24,14 @@ header
       height: 44px
   .menu-burger.set+.menu-wrapper
     position: absolute
-    z-index: 18
+    z-index: 118
     display: flex
     flex-direction: column
     top: 100%
     left: calc(50% - 50vw)
     width: 100vw
     background: #ffffff
+    min-height: calc(100vh - 100%)
     .menu__item
       display: flex
       flex-direction: column
@@ -90,7 +91,7 @@ header
         background-color: #ffffff
         box-shadow: 0 0 80px rgba(0, 43, 90, 0.08);
         padding: 33px 16px 16px
-        z-index: 20
+        z-index: 120
       .submenu__item
         display: inline
         padding-top: 8px
@@ -107,7 +108,7 @@ header
     &:hover:not(.set)
       .link
         position: relative
-        z-index: 30
+        z-index: 130
       .menu_submenu
         display: flex
         flex-direction: column
@@ -124,3 +125,8 @@ header
   margin: 0
   background-color: #fafbfc
   padding: 16px
+
+main.collapsed
+  height: 0
+  width: 0
+  overflow: hidden
