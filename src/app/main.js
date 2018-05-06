@@ -3,12 +3,13 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import './components.js';
 
 const getRealHeight = function (el) { return parseInt(getComputedStyle(el).height); };
-const toggleSet = function () {
-  let isSet = this.classList.toggle('set');
-  let needHideMain = this.classList.contains('hide-main-on-set');
+const toggleSet = function (e) {
+  let el = this || e;
+  let isSet = el.classList.toggle('set');
+  let needHideMain = el.classList.contains('hide-main-on-set');
   if (needHideMain) spotMain(isSet);
+  console.log(el, isSet, needHideMain);
 };
-
 const spotMain = function(determinant) {
   if (determinant) {
     document
@@ -20,9 +21,7 @@ const spotMain = function(determinant) {
       .forEach(x => x.classList.remove('collapsed'));
   }
 };
-
-const removeClassSet = function () { this.classList.remove('set'); };
-
+const unSet = function () { this.classList.remove('set'); };
 const removeActive = function () {
   this.parents('.wrapper')
     .forEach(x => {
@@ -30,7 +29,6 @@ const removeActive = function () {
       x.removeEventListener(removeActive);
     });
 };
-
 const setActive = function () {
   this.parents('.wrapper')
     .forEach(x => x.classList.add('focus'));
@@ -38,10 +36,7 @@ const setActive = function () {
 };
 
 document.addEventListener('DOMContentLoaded', main);
-
 function main() {
-
-  vueBootstraping();
 
   document
     .querySelectorAll('.by-click-changable')
@@ -49,7 +44,18 @@ function main() {
 
   document
     .querySelectorAll('.by-mouseleave-resetable')
-    .addEventListener('mouseleave', removeClassSet);
+    .addEventListener('mouseleave', unSet);
+
+  document
+    .querySelectorAll('.setter')
+    .forEach(x => {
+      let ev = x.getAttribute('data-setby');
+      let selector = x.getAttribute('data-seton');
+      let el = document.querySelectorAll(selector);
+      x.addEventListener(ev, () => {
+        el.forEach(e => toggleSet(e));
+      });
+    });
 
   document
     .querySelectorAll('.filter-container .main')
@@ -58,9 +64,5 @@ function main() {
   document
     .querySelectorAll('.input-type-a input')
     .addEventListener('focus', setActive);
-
-}
-
-function vueBootstraping() {
 
 }
