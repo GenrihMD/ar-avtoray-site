@@ -16,7 +16,8 @@
 .link-type-e, .input-type-a .text,
 .button-type-a, .button-type-b,
 .button-type-c, .button-type-d,
-.button-type-e, .link-phone-in-head,
+.button-type-f,.button-type-e,
+.link-phone-in-head,
 .menu-burger, .circled-image
   -moz-user-select: none
   -o-user-select: none
@@ -280,6 +281,22 @@
     border: 1px solid #0052ac
     color: #0052ac
 
+.button-type-f
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 40px
+  height: 40px
+  border-radius: 3px
+  border: 1px solid #d7dee5
+  color: #002b5a
+  font-family: Circe, sans-serif
+  font-size: 14px
+  font-weight: 400
+  &.set
+    background-color: #002b5a
+    color: #ffffff
+
 .input-type-a
   padding: 0 5px
   .wrapper
@@ -312,8 +329,8 @@
         font-weight: 400
     &:hover
       border: 1px solid #002b5a
-      border: 1px solid #002b5a
     &:active, &:focus, &.focus
+      border: 1px solid #002b5a
 .filter-container
   position: relative
   top: -1px
