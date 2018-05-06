@@ -10,7 +10,6 @@ const toggleSet = function (e) {
   let isSet = el.classList.toggle('set');
   let needHideMain = el.classList.contains('hide-main-on-set');
   if (needHideMain) spotMain(isSet);
-  console.log(el, isSet, needHideMain);
 };
 const unSet = function (e) {
   let el = this || e;
@@ -27,6 +26,7 @@ const spotMain = function (determinant) {
       .forEach(x => x.classList.remove('collapsed'));
   }
 };
+const cropMain = function () {};
 const removeActive = function () {
   this.parents('.wrapper')
     .forEach(x => {
@@ -49,12 +49,13 @@ const doEntrustHandling = function (el, handler) {
 const entrust = function (obj, subj, ev, handler) {
   if (subj.isNodeList === undefined
     ||subj.isNodeList === null)
-    throw new Error('Wrong type of subject');
+    throw new TypeError('Wrong type of subject. Waiting for Node or NodeList');
   subj = subj.isNodeList() ? subj : [subj];
   entruster(obj, subj, ev, handler);
 };
 const entruster = function (obj, subjs, ev, handler) {
-  obj.addEventListener(ev, () => {
+  obj.addEventListener(ev, (e) => {
+    e.stopPropagation();
     subjs.forEach(subj => handler(subj));
   });
 };
@@ -75,6 +76,10 @@ document
       document
         .querySelectorAll('.setToggler')
         .forEach(x => doEntrustHandling(x, toggleSet));
+
+      document
+        .querySelectorAll('.unSeter')
+        .forEach(x => doEntrustHandling(x, unSet));
 
       document
         .querySelectorAll('.filter-container .main')
