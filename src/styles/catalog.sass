@@ -11,6 +11,7 @@ main
       position: relative
       width: 100%
       padding: 8px
+      cursor: pointer
       @media screen and (min-width: 992px)
         width: 50%
       .catalog-card__border
@@ -21,7 +22,7 @@ main
         height: 100%
         border: 1px solid #d7dee5
         background-color: #fafbfc
-        transition: all .1s
+        transition: all .01s
       .catalog-card__content
         position: relative
         z-index: 19
@@ -53,14 +54,18 @@ main
               height: 230px
           .picker
             position: absolute
+            top: auto
+            bottom: 16px
+            left: 16px
             display: flex
             .dot
+              margin-right: 8px
               width: 8px
               height: 8px
               border-radius: 5px
               background-color: #ffffff
               opacity: 0.4
-              &.set
+              &.set, &.active
                 opacity: 1
         .catalog-card__title
           padding-top: 16px
@@ -110,6 +115,8 @@ main
           justify-content: space-between
           align-items: center
           padding: 15px
+          @media (min-width: 992px)
+            padding-bottom: 0px
           .now
             color: #000000
             font-family: Circe, sans-serif
@@ -133,19 +140,141 @@ main
               font-size: 20px
         .catalog-card__on-credit
           display: none
+          @media screen and (min-width: 992px)
+            display: block
+
       &:hover
         z-index: 25
-        .catalog-card__border
-          width: calc(100% + 40px)
-          height: calc(100% + 40px)
-          top: -20px
-          left: -20px
-          background-color: #ffffff
-          box-shadow: 0 0 80px rgba(0, 43, 90, 0.08)
-        article.catalog-card .catalog-card__content .catalog-card__title h1
-          color: #007aff
+        @media screen and (min-width: 750px)
+          .catalog-card__border
+            width: calc(100% + 40px)
+            height: calc(100% + 40px)
+            top: -20px
+            left: -20px
+            background-color: #ffffff
+          .catalog-card__content .catalog-card__title h1
+            color: #007aff
+
+      &:active
+        z-index: 25
+        @media screen and (min-width: 750px)
+          .catalog-card__border
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            background-color: #ffffff
+            box-shadow: 0 0 80px rgba(0, 43, 90, 0.08)
+          .catalog-card__content .catalog-card__title h1
+            color: #0052ac
+
+
 aside.catalog-aside
+  position: fixed
+  top: 0
+  left: auto
+  right: -100%
   .action-buttons
+    display: none
     margin-top: 16px
     .action-buttons__button
       margin-top: 8px
+    @media screen and (min-width: 992px)
+      display: block
+  .filter-header
+    padding: 10px 16px
+    .main.row
+      justify-content: space-between
+      align-items: center
+      p.text
+        display: flex
+        align-items: center
+        color: #dc291a
+        font-family: Circe, sans-serif
+        font-size: 14px
+        font-weight: 400
+        margin-bottom: 0
+        line-height: 1
+      .close-button
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 32px
+        height: 32px
+        border-radius: 16px
+        border: 1px solid #d7dee5
+    @media screen and (min-width: 992px)
+      display: none
+  @media screen and (min-width: 750px) and (max-width: 992px)
+    max-width: 300px
+  @media screen and (max-width: 992px)
+    padding: 0
+    background: #ffffff
+    z-index: 45
+    width: 100vw
+    transition: all .1s
+    animation: filter-outside-slide-out .1s alternate
+    animation-fill-mode: forwards
+    &.set
+      animation: filter-outside-slide-in .1s alternate
+      animation-fill-mode: forwards
+  @media screen and (min-width: 992px)
+    position: static
+    height: auto
+
+.catalog-sort
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.sorters-title
+  display: none
+  @media screen and (min-width: 750px)
+    display: flex
+    align-items: center
+    color: #000000
+    font-family: Circe, sans-serif
+    font-size: 14px
+    font-weight: 700
+    padding-right: 16px
+
+.sorters
+  display: flex
+  align-items: center
+  .sorter+.sorter
+    margin-left: 8px
+
+.filter-menu-button
+  display: flex
+  align-items: center
+  .text
+    display: none
+    @media screen and (min-width: 750px) and (max-width: 992px)
+      display: block
+      padding: 8px
+      color: #007aff
+      font-family: Circe, sans-serif
+      font-size: 14px
+      font-weight: 400
+  .circled-image
+    width: 36px
+    height: 36px
+  @media screen and (min-width: 992px)
+    display: none
+
+@keyframes filter-outside-slide-in
+  0%
+    right: -100%
+  90%
+    right: 0
+  100%
+    right: 0
+    position: absolute
+
+@keyframes filter-outside-slide-out
+  0%
+    right: 0
+    position: absolute
+  100%
+    right: -100%
+    position: fixed

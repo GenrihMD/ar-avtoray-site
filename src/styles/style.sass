@@ -89,7 +89,7 @@ header
       @media screen and (min-width: 992px)
         border: 1px solid #d7dee5
         background-color: #ffffff
-        box-shadow: 0 0 80px rgba(0, 43, 90, 0.08);
+        box-shadow: 0 0 80px rgba(0, 43, 90, 0.08)
         padding: 33px 16px 16px
         z-index: 120
       .submenu__item
@@ -122,9 +122,12 @@ header
             background: #dc291a
 
 .breadcrumb
-  margin: 0
-  background-color: #fafbfc
-  padding: 16px
+  display: none
+  @media screen and (min-width: 992px)
+    display: flex
+    margin: 0
+    background-color: #fafbfc
+    padding: 16px
 
 main.collapsed
   height: 0
