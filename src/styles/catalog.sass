@@ -1,7 +1,14 @@
-main
+main.catalog
   padding-top: 16px
+  padding-bottom: 50px
   background-color: #fafbfc
 .catalog-container
+  .catalog-presets-filter
+    section.main
+      .filter-button
+        width: 100%
+        @media screen and (min-width: 992px)
+          width: auto
   .catalog-sort
     display: flex
   .catalog-cards
@@ -168,7 +175,6 @@ main
           .catalog-card__content .catalog-card__title h1
             color: #0052ac
 
-
 aside.catalog-aside
   position: fixed
   top: 0
@@ -262,6 +268,14 @@ aside.catalog-aside
   @media screen and (min-width: 992px)
     display: none
 
+.catalog-pagination
+  margin-top: 24px
+  .catalog-pagination__buttons
+    display: flex
+    justify-content: flex-end
+    > div
+      margin-left: 8px
+
 @keyframes filter-outside-slide-in
   0%
     right: -100%
@@ -278,3 +292,5 @@ aside.catalog-aside
   100%
     right: -100%
     position: fixed
+
+@import "./parts/noFoundBlock.sass"
