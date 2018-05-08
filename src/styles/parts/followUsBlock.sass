@@ -1,0 +1,47 @@
+.followUsBlock
+  background-color: #fafbfc
+  .container
+    .row
+      padding-top: 25px
+      padding-bottom: 40px
+      @media screen and (min-width: 750px)
+        padding-top: 40px
+        padding-bottom: 56px
+      @media screen and (min-width: 992px)
+        padding-top: 25px
+        padding-bottom: 25px
+      .right.col-12.col-lg-6
+        h1
+          color: #000000
+          font-family: Circe, sans-serif
+          font-size: 30px
+          font-weight: 400
+          line-height: 40px
+          text-align: center
+        h2
+          color: #000000
+          font-family: Circe, sans-serif
+          font-size: 18px
+          font-weight: 700
+        .button
+          margin-top: 10px
+      .left
+        display: flex
+        justify-content: center
+        align-items: center
+        .b750, .c992
+          display: none
+        .a320, .b750, .c992
+          margin: auto
+          max-width: 100%
+        @media screen and (min-width: 750px)
+          .a320
+            display: none
+          .b750
+            display: block
+        @media screen and (min-width: 750px)
+          .a750
+            display: none
+          .b992
+            display: block
+
