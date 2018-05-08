@@ -8,7 +8,10 @@
 .button-type-b,
 .button-type-c,
 .button-type-d,
-.button-type-e
+.button-type-e,
+.button-type-f,
+.button-type-g,
+.button-type-tttop, .button-type-i
   cursor: default
 
 .link-type-a, .link-type-b,
@@ -17,7 +20,8 @@
 .button-type-a, .button-type-b,
 .button-type-c, .button-type-d,
 .button-type-f,.button-type-e,
-.link-phone-in-head,
+.button-type-g, .link-phone-in-head,
+.button-type-tttop, .button-type-i,
 .menu-burger, .circled-image
   -moz-user-select: none
   -o-user-select: none
@@ -298,6 +302,34 @@
     color: #ffffff
   &:hover
     border-color: #000000
+
+.button-type-g
+  border-radius: 30px
+  border: 1px solid #414d5b
+  padding: 19px 45px
+  color: #dc291a
+  font-family: Circe, sans-serif
+  font-size: 16px
+  font-weight: 700
+  text-align: center
+  width: max-content
+  &:hover
+    color: #ffffff
+    background-color: #dc291a
+    border-color: #dc291a
+  &:active
+    background-color: #b00d00
+    border-color: #b00d00
+.button-tttop,
+.button-type-i
+  width: 60px
+  height: 60px
+  border: 1px solid #414d5b
+  border-radius: 31px
+  display: none
+  @media screen and (min-width: 750px)
+    display: block
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAICAYAAAD0g6+qAAAAnklEQVQoU42RwRHCMAwEVxVAJ9AR0AFUAh1AOoJOoIJjjpEzyCEZ9PHD8vpWChZK0ha4ZsshIu5z7TF3IWkPnIF19jyBU0Tcfr2ZgCT5oQEGuYY8d3kaZKDBYxXQl4qVXsCxJciEF2AFWLGojqBO5eFE/UzyIyfaAEU1ZlScpERvDtnvZFVVkmP6h6KytE3f9apO1FY6UfkD5ll+tvgG/WhIr7bk704AAAAASUVORK5CYII=') center no-repeat
 
 .input-type-a
   padding: 0 5px
