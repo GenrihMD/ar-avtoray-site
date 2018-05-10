@@ -54,18 +54,6 @@ $arPropertiesFields = [
     ["EQUIPMENT", "Оснащение;оборудование", "S", "Y"],
     ["IMAGE", "Изображения", "S", "Y"],
 ];
-foreach ($arPropertiesFields as $arPropertyFields) {
-    $arFields = Array(
-        "NAME" => $arPropertyFields[1],
-        "ACTIVE" => "Y",
-        "SORT" => "500",
-        "CODE" => $arPropertyFields[0],
-        "PROPERTY_TYPE" => $arPropertyFields[2],
-        "IBLOCK_ID" => 1,
-        "MULTIPLE" => $arPropertyFields[3]
-    );
-    $CIBlockPropertiesHelper->Add($arFields);
-}
 
 foreach ($arPropertiesFields as $arPropertyFields) {
     $res = CIBlockProperty::GetByID(
