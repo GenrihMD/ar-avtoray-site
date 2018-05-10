@@ -1,47 +1,400 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0957d2-4a23-4c4e-a612-fd444c52101f" name="Default" comment="add car loader">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components.js" afterPath="$PROJECT_DIR$/src/assets/app/components.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/main.js" afterPath="$PROJECT_DIR$/src/assets/app/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/plugins/multirange.js" afterPath="$PROJECT_DIR$/src/assets/app/plugins/multirange.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/plugins/vanilla.js" afterPath="$PROJECT_DIR$/src/assets/app/plugins/vanilla.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Bold.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Bold.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Bold.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Bold.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Bold.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Bold.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Bold.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Bold.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraBold.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraBold.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraBold.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraBold.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraBold.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraBold.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraBold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraBold.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraBold.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraLight.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraLight.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraLight.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraLight.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraLight.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraLight.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraLight.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-ExtraLight.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-ExtraLight.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Light.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Light.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Light.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Light.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Light.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Light.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Light.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Light.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Regular.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Regular.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Regular.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Regular.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Regular.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Thin.eot" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Thin.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Thin.svg" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Thin.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Thin.ttf" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Thin.woff" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fonts/Circe-Thin.woff2" afterPath="$PROJECT_DIR$/src/assets/fonts/Circe-Thin.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/logo-mobile.png" afterPath="$PROJECT_DIR$/src/assets/img/logo-mobile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="$PROJECT_DIR$/src/assets/img/logo.png" />
+    <list default="true" id="6a0957d2-4a23-4c4e-a612-fd444c52101f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/images/line-empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/images/tile-empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/font_quote.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/noavatar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/images/postform/video.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/images/stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/script.map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/component_epilog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/script.map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/themes/green/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/themes/red/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.compare.result/.default/themes/yellow/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.filter/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.link.list/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.link.list/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.link.list/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.link.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/bitrix/search.page/.default/chain_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/bitrix/search.page/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.search/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/catalog.section.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/component_epilog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/ru/script.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/script_deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/forum.topic.reviews/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/script.map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/bitrix/iblock.vote/stars/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/compare.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/element.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/element.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/section_horizontal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/section_vertical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/ru/element.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/ru/section_horizontal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/ru/section_vertical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/section_horizontal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/section_vertical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/sections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/arr_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/arr_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/arr_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/arr_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/missing.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/missing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/price_bg.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/price_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/x2border.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/x2border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/price_bg.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/price_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/blue/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/blue/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/price_bg_white.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/price_bg_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/green/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/green/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/price_bg_white.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/price_bg_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/red/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/red/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/price_bg.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/price_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/wood/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/wood/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/bt_cart.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/bt_cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/price_bg_white.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/price_bg_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/banner/themes/yellow/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/component_epilog.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/component_epilog.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/functions.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/images/no_photo.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/images/no_photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/images/no_prop_value.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/images/no_prop_value.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/arr_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/arr_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/arr_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/arr_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/missing.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/missing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/no_photo.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/no_photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/no_prop_value.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/no_prop_value.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/x2border.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/x2border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/black/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/black/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/black/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/black/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/blue/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/blue/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/blue/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/blue/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/blue/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/blue/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/green/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/green/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/green/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/green/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/green/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/green/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/red/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/red/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/red/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/red/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/red/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/red/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/wood/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/wood/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/wood/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/wood/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/yellow/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/yellow/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/yellow/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/yellow/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/section/themes/yellow/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/section/themes/yellow/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/arr_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/arr_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/arr_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/arr_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/fade_left.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/fade_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/fade_right.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/fade_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/missing.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/missing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/no_photo.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/no_photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/no_prop_value.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/no_prop_value.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/stick.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/stick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/stick_disc.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/stick_disc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/x2border.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/x2border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/black/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/black/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/black/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/blue/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/blue/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/blue/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/green/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/green/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/green/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/red/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/red/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/red/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/wood/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/wood/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/wood/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/pagination_dot.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/pagination_dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/slider_arrow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/slider_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/x2border_active.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/images/x2border_active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/slider/themes/yellow/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/template-section.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/template-section.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/template-slider.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/template-slider.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog.top/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog.top/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.list/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/component_epilog.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/component_epilog.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/green/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/green/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/red/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/red/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/yellow/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.compare.result/.default/themes/yellow/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.link.list/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/chain_template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/chain_template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/bitrix/search.page/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.search/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/images/line-empty.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/images/line-empty.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/images/tile-empty.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/images/tile-empty.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.section.list/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/component_epilog.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/component_epilog.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/close.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/close.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/font_quote.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/font_quote.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/noavatar.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/noavatar.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/add.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/add.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/image.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/image.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/video.gif" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/images/postform/video.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/lang/en/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/lang/ru/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/ru/script.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/ru/script.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/script_deferred.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/script_deferred.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/forum.topic.reviews/.default/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/images/stars.png" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/images/stars.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/result_modifier.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/result_modifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.map.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.min.js" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/script.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/template.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/bitrix/iblock.vote/stars/template.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/compare.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/compare.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/element.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/element.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/en/element.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/en/element.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/en/section.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/en/section.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/en/section_horizontal.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/en/section_horizontal.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/en/section_vertical.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/en/section_vertical.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/ru/element.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/ru/element.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/ru/section.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/ru/section.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/ru/section_horizontal.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/ru/section_horizontal.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/lang/ru/section_vertical.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/lang/ru/section_vertical.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/search.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/search.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/section.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/section_horizontal.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section_horizontal.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/section_vertical.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section_vertical.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/sections.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/sections.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/style.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/components/bitrix/catalog/catalog/style.min.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/description.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/description.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/footer.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/footer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/header.php" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/header.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/styles.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/template_styles.css" afterPath="$PROJECT_DIR$/site_root/local/templates/avtoray/template_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_root/local/templates/aavtoray/description.php" afterPath="$PROJECT_DIR$/site_root/local/templates/aavtoray/description.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/followUsBlock.pug" afterPath="$PROJECT_DIR$/src/followUsBlock.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/header.pug" afterPath="$PROJECT_DIR$/src/header.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/noFoundBlock.pug" afterPath="$PROJECT_DIR$/src/noFoundBlock.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/fonts.scss" afterPath="$PROJECT_DIR$/src/styles/fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,71 +405,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="section.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/bitrix/templates/avtoray/components/bitrix/catalog/catalog/section.php">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="21" />
+            <state relative-caret-position="-63476">
+              <caret line="16" column="38018" lean-forward="false" selection-start-line="16" selection-start-column="38018" selection-end-line="16" selection-end-column="38018" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section_vertical.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/bitrix/templates/avtoray/components/bitrix/catalog/catalog/section_vertical.php">
+      <file leaf-file-name="section.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#3#0#PHP" expanded="false" />
+                <element signature="e#435#458#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="element.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/element.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site_root/local/templates/aavtoray/header.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/catalog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sections.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/bitrix/templates/avtoray/components/bitrix/catalog/catalog/sections.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1807">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/bitrix/templates/avtoray/components/bitrix/catalog/catalog/bitrix/catalog.filter/.default/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".parameters.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/bitrix/templates/avtoray/components/bitrix/catalog/catalog/.parameters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2397">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -147,6 +473,10 @@
       <find>,</find>
       <find>\,.*</find>
       <find>\&lt;.*\&gt;</find>
+      <find>img/</find>
+      <find>/assets/img</find>
+      <find>//assets/img/</find>
+      <find>'../assets</find>
       <find>filter</find>
     </findStrings>
     <replaceStrings>
@@ -155,6 +485,9 @@
       <replace>data-entrustto</replace>
       <replace>, - \n</replace>
       <replace>,</replace>
+      <replace>/assets/img</replace>
+      <replace>/assets/img/</replace>
+      <replace>'/assets</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -170,7 +503,6 @@
         <option value="$PROJECT_DIR$/src/components/link-type-c.vue" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/app/components.js" />
-        <option value="$PROJECT_DIR$/src/header.pug" />
         <option value="$PROJECT_DIR$/src/styles/style.sass" />
         <option value="$PROJECT_DIR$/src/filter.pug" />
         <option value="$PROJECT_DIR$/src/app/plugins/vanilla.js" />
@@ -180,10 +512,8 @@
         <option value="$PROJECT_DIR$/src/catalog-container.pug" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
         <option value="$PROJECT_DIR$/src/styles/parts/noFoundBlock.sass" />
-        <option value="$PROJECT_DIR$/src/noFoundBlock.pug" />
         <option value="$PROJECT_DIR$/src/styles/catalog.sass" />
         <option value="$PROJECT_DIR$/src/styles/elements.sass" />
-        <option value="$PROJECT_DIR$/src/followUsBlock.pug" />
         <option value="$PROJECT_DIR$/src/styles/parts/followUsBlock.sass" />
         <option value="$PROJECT_DIR$/temp/offer.xml" />
         <option value="$PROJECT_DIR$/site_root/updateCarProperties" />
@@ -197,10 +527,19 @@
         <option value="$PROJECT_DIR$/site_root/addCarProperties.php" />
         <option value="$PROJECT_DIR$/site_root/addDealersProperties.php" />
         <option value="$PROJECT_DIR$/temp/XLSXReader-master/sample.php" />
-        <option value="$PROJECT_DIR$/site_root/local/templates/avtoray/styles.css" />
-        <option value="$PROJECT_DIR$/dist/head.html" />
         <option value="$PROJECT_DIR$/dist/catalog.html" />
+        <option value="$PROJECT_DIR$/src/header.pug" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/noFoundBlock.pug" />
+        <option value="$PROJECT_DIR$/src/followUsBlock.pug" />
         <option value="$PROJECT_DIR$/site_root/local/templates/aavtoray/header.php" />
+        <option value="$PROJECT_DIR$/site_root/local/templates/avtoray/header.php" />
+        <option value="$PROJECT_DIR$/src/styles/fonts.scss" />
+        <option value="$PROJECT_DIR$/dist/head.html" />
+        <option value="$PROJECT_DIR$/dist/styles/style.css" />
+        <option value="$PROJECT_DIR$/site_root/local/templates/avtoray/styles.css" />
+        <option value="$PROJECT_DIR$/site_root/local/templates/avtoray/footer.php" />
+        <option value="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section.php" />
       </list>
     </option>
   </component>
@@ -220,6 +559,20 @@
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>sass</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>pug</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>copy</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+        </tasks>
       </GulpfileState>
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
@@ -259,13 +612,70 @@
             <path>
               <item name="clear" type="b2602c69:ProjectViewProjectNode" />
               <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="clear" type="b2602c69:ProjectViewProjectNode" />
               <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site_root" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -284,7 +694,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site_root" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -294,7 +704,11 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/assets" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/site_root/utilits" />
     </key>
@@ -329,6 +743,36 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
+    <configuration name="copy" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>copy</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="pug" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>pug</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="sass" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>sass</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
     <configuration name="watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -338,14 +782,20 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="npm.watch" />
       <item index="1" class="java.lang.String" itemvalue="npm.build" />
+      <item index="2" class="java.lang.String" itemvalue="Gulp.js.sass" />
+      <item index="3" class="java.lang.String" itemvalue="Gulp.js.pug" />
+      <item index="4" class="java.lang.String" itemvalue="Gulp.js.copy" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="npm.watch" />
-        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.copy" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.pug" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.sass" />
+        <item index="4" class="java.lang.String" itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +818,7 @@
       <workItem from="1525904615543" duration="3958000" />
       <workItem from="1525911956466" duration="5215000" />
       <workItem from="1525918000251" duration="66000" />
-      <workItem from="1525918115978" duration="24103000" />
+      <workItem from="1525918115978" duration="28055000" />
     </task>
     <task id="LOCAL-00001" summary="add spoting main on toggle set">
       <created>1525569190569</created>
@@ -531,11 +981,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525988420150</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="some reorganize project">
+      <created>1525990831524</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1525990831524</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97205000" />
+    <option name="totallyTimeSpent" value="101157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
@@ -544,15 +1001,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.49697885" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26510575" sideWeight="0.54329" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26510575" sideWeight="0.54418606" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27925116" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25981873" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23716012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26510575" sideWeight="0.54418606" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510575" sideWeight="0.45670995" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3247734" sideWeight="0.45581394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -563,7 +1021,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -574,7 +1031,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add spoting main on toggle set" />
     <MESSAGE value="add spoting main on toggle set&#10;add style for class collapsed for main block&#10;change z-index value of header elems (increase by one hundred)&#10;set height of mobile menu to 100% of viewport is minimum" />
     <MESSAGE value="add hadler for setter elements&#10;refactor unSet functions" />
     <MESSAGE value="add sorters and aside-menu-button&#10;restyle on-credit button&#10;add dots to picer on slide-holder" />
@@ -598,95 +1054,17 @@
     <MESSAGE value="migrate dealers iblock" />
     <MESSAGE value="reorganize files" />
     <MESSAGE value="start make bitrix template" />
-    <option name="LAST_COMMIT_MESSAGE" value="start make bitrix template" />
+    <MESSAGE value="some reorganize project" />
+    <MESSAGE value="Forgive me future I, there is no time to write meaningful messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgive me future I, there is no time to write meaningful messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/elements.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#76#127#0" expanded="false" />
-            <element signature="e#599#748#0" expanded="false" />
-            <element signature="e#763#876#0" expanded="false" />
-            <element signature="e#890#1003#0" expanded="false" />
-            <element signature="e#1017#2097#0" expanded="false" />
-            <element signature="e#2111#3814#0" expanded="false" />
-            <element signature="e#3828#5671#0" expanded="false" />
-            <element signature="e#5692#6260#0" expanded="false" />
-            <element signature="e#6276#7330#0" expanded="false" />
-            <element signature="e#7346#7613#0" expanded="false" />
-            <element signature="e#7629#7915#0" expanded="false" />
-            <element signature="e#7931#8185#0" expanded="false" />
-            <element signature="e#8201#8508#0" expanded="false" />
-            <element signature="e#8524#8846#0" expanded="false" />
-            <element signature="e#8862#9213#0" expanded="false" />
-            <element signature="e#9413#9730#1" expanded="false" />
-            <element signature="e#9857#10208#2" expanded="false" />
-            <element signature="e#10494#11288#0" expanded="false" />
-            <element signature="e#11307#11939#0" expanded="false" />
-            <element signature="e#11956#12065#0" expanded="false" />
-            <element signature="e#12081#12194#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catalog-container.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/vue.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue/dist/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="7282" lean-forward="false" selection-start-line="5" selection-start-column="7279" selection-end-line="5" selection-end-column="7282" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/link-type-c.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -719,20 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -785,13 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/noFoundBlock.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/parts/noFoundBlock.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -803,13 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/followUsBlock.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1070,26 +1420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/dist/assets/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="5" column="98" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="41208" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_root/local/templates/aavtoray/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1114,18 +1448,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/followUsBlock.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="22" column="95" lean-forward="false" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/noFoundBlock.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="5" column="925" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="41358" />
           <folding>
-            <element signature="e#1221#1227#0" expanded="false" />
-            <element signature="e#1232#1238#0" expanded="false" />
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#2;n#div#0;n#header#0;n#!!top" expanded="false" />
+            <element signature="e#66035#66235#2" expanded="true" />
+            <element signature="e#66443#66592#2" expanded="true" />
+            <element signature="e#67094#67240#2" expanded="true" />
+            <element signature="e#67541#67707#1" expanded="true" />
+            <element signature="e#79759#80002#2" expanded="true" />
+            <element signature="e#80869#81118#2" expanded="true" />
+            <element signature="e#110449#110639#2" expanded="true" />
+            <element signature="e#110685#110875#2" expanded="true" />
+            <element signature="e#199620#199879#2" expanded="true" />
+            <element signature="e#200054#200293#2" expanded="true" />
+            <element signature="e#200371#200506#2" expanded="true" />
+            <element signature="e#200848#201103#2" expanded="true" />
+            <element signature="e#201278#201513#2" expanded="true" />
+            <element signature="e#201591#201726#2" expanded="true" />
+            <element signature="e#201798#202037#2" expanded="true" />
+            <element signature="e#202118#202325#2" expanded="true" />
+            <element signature="e#202625#202936#2" expanded="true" />
+            <element signature="e#203126#203361#2" expanded="true" />
+            <element signature="e#203453#203588#2" expanded="true" />
+            <element signature="e#203674#203913#2" expanded="true" />
+            <element signature="e#204008#204215#2" expanded="true" />
+            <element signature="e#208404#208719#1" expanded="true" />
+            <element signature="e#208878#209229#2" expanded="true" />
+            <element signature="e#231312#231471#1" expanded="true" />
+            <element signature="e#231607#232006#1" expanded="true" />
+            <element signature="e#232358#232669#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_root/local/templates/aavtoray/header.php">
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="-63476">
+          <caret line="16" column="38018" lean-forward="false" selection-start-line="16" selection-start-column="38018" selection-end-line="16" selection-end-column="38018" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section_horizontal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog/section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#3#0#PHP" expanded="false" />
+            <element signature="e#435#458#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_root/local/templates/avtoray/components/bitrix/catalog/catalog_src/lang/en/element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
       </provider>

@@ -3,10 +3,10 @@ let HtmlWebPackPlugin = require('html-webpack-plugin');
 let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 let config = {
-  entry: './src/app/main.js',
+  entry: './src/assets/app/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: './app/main.js',
+    filename: './assets/app/main.js',
     publicPath: '/',
     hotUpdateChunkFilename: './../hot/hot-update.js',
     hotUpdateMainFilename: './../hot/hot-update.json'

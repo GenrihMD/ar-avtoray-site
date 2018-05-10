@@ -5,7 +5,7 @@
       <paths name="avtoray.genrih-md.myjino.ru">
         <serverdata>
           <mappings>
-            <mapping deploy="" local="$PROJECT_DIR$/site_root" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$/site_root" web="avtoray.genrih-md.myjino.ru" />
           </mappings>
           <excludedPaths>
             <excludedPath path="/" />
