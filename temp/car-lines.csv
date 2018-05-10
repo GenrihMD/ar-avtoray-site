@@ -1,0 +1,52 @@
+CODE,NAME,TYPE,MULTIPLE
+VIN,VIN,-,N
+ID,ID,-,N
+URL,URL,-,
+MURL,MURL,-,
+CAR CREATE DATE,ДАТА СОЗДАНИЯ АВТОМОБИЛЯ,-,N
+CAR UPDATE DATE,ДАТА ОБНОВЛЕНИЯ АВТОМОБИЛЯ,-,N
+PRICE UPDATE DATE,ДЕНЬ ОБНОВЛЕНИЯ ЦЕНЫ,-,N
+CAR VALID THRU DATE,АВТОМОБИЛЬ ДЕЙСТВИТЕЛЕН ДО,-,N
+MARK,МАРКА,-,N
+MODEL,МОДЕЛЬ,-,N
+GENERATION,ПОКОЛЕНИЕ,-,N
+MODIFICATION,МОДИФИКАЦИЯ,-,N
+MODIFICATION_ILSA,MODIFICATION_ILSA,-,N
+MODIFICATION CODE,МОДИФИКАЦИОННЫЙ КОД,-,N
+YEAR,ГОД,-,N
+EXTERIOR COLOR,ВНЕШНИЙ ЦВЕТ,-,N
+EXTERIOR CODE,ВНЕШНИЙ КОД,-,N
+BODY TYPE,ТИП КУЗОВА,-,N
+DOORS COUNT,КОЛИЧЕСТВО ДВЕРЕЙ,-,N
+DISPLACEMENT,СМЕЩЕНИЕ,-,N
+ENGINE TYPE,ТИП ДВИГАТЕЛЯ,-,N
+HORSE POWER,ЛОШАДИНЫЕ СИЛЫ,-,N
+TRANSMISSION,КОРОБКА ПЕРЕДАЧ,-,N
+GEAR TYPE,ТИП ПРИВОДА,-,N
+STEERING WHEEL,РУЛЬ,-,N
+STOCK,АКЦИИ,-,N
+STATE,ГОСУДАРСТВО,-,N
+CAR LOCATION,МЕСТОПОЛОЖЕНИЕ,-,N
+RUN,ПРОБЕГ,-,N
+RUN METRIC,МЕТРИКА ПРОБЕГА,-,N
+PRICE,ЦЕНА,-,N
+BASE PRICE,ОСНОВНАЯ ЦЕНА,-,N
+SALE PRICE,ЦЕНА ПРОДАЖИ,-,N
+MONTHLY PAYMENT,ЕЖЕМЕСЯЧНО ОПЛАТА,-,N
+CURRENCY TYPE,ТИП ВАЛЮТЫ,-,N
+HAGGLE,ТОРГ,-,N
+CUSTOM HOUSE STATE,ТАМОЖЕННЫЙ ДОМ,-,N
+SELLER,ПРОДАВЕЦ,-,N
+SELLER CITY,ПРОДАВЕЦА ГОРОД,-,N
+SELLER PHONE,ПРОДАВЕЦА ТЕЛЕФОН,-,N
+ADDITIONAL INFO EXTERIOR,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ ЭКСТЕРЬЕР,-,N
+ADDITIONAL INFO INTERIOR,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ ИНТЕРЬЕР,-,N
+ADDITIONAL INFO SAFETY,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ БЕЗОПАСНОСТЬ,-,N
+ADDITIONAL INFO COMFORT,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ КОМФОРТ,-,N
+ADDITIONAL INFO WARRANTY,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ ГАРАНТИЯ,-,N
+EQUIPMENT EXTERIOR,ЭКСТЕРЬЕР (ОСНАЩЕНИЕ;ОБОРУДОВАНИЕ),-,N
+EQUIPMENT INTERIOR,ИНТЕРЬЕР (ОСНАЩЕНИЕ;ОБОРУДОВАНИЕ),-,N
+EQUIPMENT SAFETY,БЕЗОПАСНОСТЬ (ОСНАЩЕНИЕ;ОБОРУДОВАНИЕ),-,N
+EQUIPMENT COMFORT,КОМФОРТ (ОСНАЩЕНИЕ;ОБОРУДОВАНИЕ),-,N
+EQUIPMENT,ОСНАЩЕНИЕ;ОБОРУДОВАНИЕ,-,Y
+IMAGE,ИЗОБРАЖЕНИЕ,,Y
