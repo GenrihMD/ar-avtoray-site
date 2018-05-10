@@ -9,16 +9,15 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 if (!CModule::IncludeModule("iblock")) die('Это фиаско, братан!');
 
 $ACTIVE            =  'Y';
-$NAME              =  '';
-$CODE              =  '';
-$LIST_PAGE_URL     =  '';
-$DETAIL_PAGE_URL   =  '';
-$type              =  '';
-$SORT              =  '';
-$arPICTURE         =  '';
+$NAME              =  'Дилерские центры';
+$CODE              =  'dealers';
+$LIST_PAGE_URL     =  '#SITE_DIR#/dealers/index.php?ID=#IBLOCK_ID#';
+$DETAIL_PAGE_URL   =  '#SITE_DIR#/dealers/detail.php?ID=#ELEMENT_ID#';
+$SORT              =  500;
+$arPICTURE         =  Array();
 $DESCRIPTION       =  '';
 $DESCRIPTION_TYPE  =  '';
-
+$TYPE              =  'catalog';
 
 $ib = new CIBlock;
 $arFields = Array(
@@ -27,10 +26,9 @@ $arFields = Array(
     "CODE" => $CODE,
     "LIST_PAGE_URL" => $LIST_PAGE_URL,
     "DETAIL_PAGE_URL" => $DETAIL_PAGE_URL,
-    "IBLOCK_TYPE_ID" => $type,
-    "SITE_ID" => Array("en", "de"),
+    "IBLOCK_TYPE_ID" => $TYPE,
+    "SITE_ID" => Array("s1"),
     "SORT" => $SORT,
-    "PICTURE" => $arPICTURE,
     "DESCRIPTION" => $DESCRIPTION,
     "DESCRIPTION_TYPE" => $DESCRIPTION_TYPE,
     "GROUP_ID" => Array("2"=>"D", "3"=>"R")
@@ -42,4 +40,3 @@ else
     $ID = $ib->Add($arFields);
     $res = ($ID>0);
 }
-?>
