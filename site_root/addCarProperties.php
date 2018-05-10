@@ -66,21 +66,3 @@ foreach ($arPropertiesFields as $arPropertyFields) {
     );
     $CIBlockPropertiesHelper->Add($arFields);
 }
-
-foreach ($arPropertiesFields as $arPropertyFields) {
-    $res = CIBlockProperty::GetByID(
-        $arPropertyFields[0], false, "Cars"
-    );
-    if ($ar_res = $res->GetNext()) $ID = $ar_res['ID'];
-    $arFields = Array(
-        "NAME" => $arPropertyFields[1],
-        "ACTIVE" => "Y",
-        "SORT" => "500",
-        "PROPERTY_TYPE" => $arPropertyFields[2],
-        "MULTIPLE" => $arPropertyFields[3]
-    );
-    if (!$CIBlockPropertiesHelper->Update($ID, $arFields))
-        echo $CIBlockPropertiesHelper->LAST_ERROR;
-}
-
-
