@@ -120,11 +120,11 @@ if ($isFilter || $isSidebar): ?>
 						array(
 							'IBLOCK_TYPE' => $arParams['IBLOCK_TYPE'],
 							'IBLOCK_ID' => $arParams['IBLOCK_ID'],
-							
+
 							'SECTION_ID' => $arResult['VARIABLES']['SECTION_ID'],
 							'SECTION_CODE' => $arResult['VARIABLES']['SECTION_CODE'],
 							'SECTION_ID_VARIABLE' => $arParams['SECTION_ID_VARIABLE'],
-							
+
 							'PRODUCT_ID_VARIABLE' => $arParams['PRODUCT_ID_VARIABLE'],
 							'ACTION_VARIABLE' => (!empty($arParams['ACTION_VARIABLE']) ? $arParams['ACTION_VARIABLE'] : 'action').'_spgs',
 
