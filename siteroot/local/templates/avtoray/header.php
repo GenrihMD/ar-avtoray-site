@@ -7,9 +7,9 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 <head><title>Заголовок</title>
     <meta name="description" content="auto"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="styles/style.css"/>
-    <? $APPLICATION->ShowHead(); ?>
+    <meta charset="utf-8"/><?
+    CJSCore::Init(array("jquery"));
+    $APPLICATION->ShowHead(); ?>
     <title><? $APPLICATION->ShowTitle(); ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 </head>

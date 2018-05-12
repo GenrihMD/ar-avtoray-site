@@ -3,11 +3,11 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="a4f2f8ac-9877-4f68-9aad-1a95b6e494fc" name="avtoray.genrih-md.myjino.ru" url="">
-        <fileTransfer host="genrih-md.myjino.ru" port="22" rootFolder="/home/users/g/genrih-md/root/avtoray" accessType="SFTP">
+        <fileTransfer host="genrih-md.myjino.ru" port="21" rootFolder="/root/avtoray">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>

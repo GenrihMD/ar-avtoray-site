@@ -24,3 +24,4 @@ $this->setFrameMode(true);
 	<?endif?>
 <?endforeach;?>
 </div>
+</div>
