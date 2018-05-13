@@ -1,4 +1,7 @@
-main.catalog-detail.container
+main.catalog-detail
+  background-color: #fafbfc
+  padding-bottom: 30px
+.container
   .row
     .col-12.col-lg-7
       .slider
@@ -21,15 +24,24 @@ main.catalog-detail.container
         padding-right: 15px
         padding-left: 15px
         .action-buttons__button
+          padding-left: 4px
+          padding-right: 4px
           margin: 4px 0
-    .col-12.col-lg-5
+    .right-panel
+      padding: 16px
+      border: 1px solid #d7dee5
+      background-color: #ffffff
       h1.name
         color: #000000
         font-family: Circe, sans-serif
         font-size: 18px
         font-weight: 700
+        padding-bottom: 8px
+        border-bottom: 1px solid #d7dee5
+        @media (min-width: 750px)
+          font-size: 28px
       .features.row
-        .feature.col-12.col-md-4.col-lg-6
+        .feature
           display: flex
           .icon
             display: flex
@@ -47,13 +59,47 @@ main.catalog-detail.container
         color: #000000
         font-family: Circe, sans-serif
         font-size: 16px
+        padding-bottom: 8px
+        border-bottom: 1px solid #d7dee5
         h2
           font-size: 16px
           font-weight: 700
         p
           font-weight: 400
+
       .buy-and-price__holder.row
+        align-items: center
         .price
+          display: flex
+          justify-content: center
+          align-items: center
+          color: #000000
+          font-family: Circe, sans-serif
+          font-size: 36px
+          font-weight: 700
         .addtion
+          display: flex
+          justify-content: center
+          align-items: center
+          height: 40px
+          border-radius: 3px
+          border: 1px solid #dc291a
+          color: #dc291a
+          font-family: Circe, sans-serif
+          font-size: 14px
+          font-weight: 400
+          text-align: center
         .in-credit
+          margin-top: 8px
+          display: flex
+          justify-content: center
+          align-items: center
+          height: 40px
+          border-radius: 3px
+          border: 1px solid #d7dee5
+          background-color: #ffffff
+          color: #007aff
+          font-family: Circe, sans-serif
+          font-size: 14px
+          font-weight: 400
 
