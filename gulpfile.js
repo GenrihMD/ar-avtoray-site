@@ -34,7 +34,8 @@ gulp.task('copy', () => {
     './src/**/*',
     '!./src/styles/**/*',
     '!./src/app/**/*',
-    '!./src/**/*.pug'
+    '!./src/**/*.pug',
+    '!./src/assets/app/main.js'
   ], {
     dot: true
   }).pipe(gulp.dest('./dist/.'));});
