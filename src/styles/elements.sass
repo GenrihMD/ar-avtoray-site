@@ -410,6 +410,8 @@ button, input
       display: flex
       align-content: flex-start
       justify-content: flex-end
+      position: relative
+      top: -7px
     .title
       display: flex
       align-content: flex-start
@@ -472,3 +474,6 @@ button, input
 
 .noUi-handle:after, .noUi-handle:before
   display: none
+
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle.noUi-handle-upper
+  right: -3px
