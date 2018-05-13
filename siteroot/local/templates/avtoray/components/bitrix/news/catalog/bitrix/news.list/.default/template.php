@@ -96,13 +96,15 @@ $this->setFrameMode(true);
             'sale_price' => $props['SALE_PRICE']['DISPLAY_VALUE'],
             'transmission' => $props['TRANSMISSION']['DISPLAY_VALUE'],
             'run' => $props['RUN']['DISPLAY_VALUE'],
-            'run_metriq' => $props['RUN']['DISPLAY_VALUE'],
+            'run_metric' => $props['RUN_METRIC']['DISPLAY_VALUE'],
             'image' => $props['IMAGE']['VALUE'][0],
         ];
         $t['price'] = number_format($t['price'], 0,',', ' ');
+        $t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
         ?>
-
         <article class="catalog-card" id="<?= $this->GetEditAreaId($arItem['ID']); ?>">
+
+            <a href="<?=$arItem["DETAIL_PAGE_URL"]?>">
             <div class="catalog-card__border"></div>
             <div class="catalog-card__content">
                 <div class="to-left">
@@ -136,7 +138,7 @@ $this->setFrameMode(true);
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABrElEQVQ4T52UQVLCMBSG/1dHWaInEJcSHelGykpaDiDeQE8gngC4AZ5AjiAHoMUVZQWOFpfCDXAJjjwnJe0EsMD4dmmSP3n//6Xk9fuHmO5XGVQGkMHmGjiWML3uR4bp5wmgIsAdSn3fUNt/bxDofotANP3qWCLn+sEzgGttT4tcP5gASJMB074Ug10EXT/g1XX/FRoBONbExtTuBjUiVBNuMmJgYLDxYBdO5eawvO5bkcnwojHx3CY5UD5Js/VTdO0JsWHqYpG3DH4sWWeVUCipwnSMeROMKwAtxxLysLjc7rDpFLK38sNGoUUbMur5J4CRY4mTpENDIa83LDOz9CkHYEBEdTuflRGHFSebmh3ZpilTXitaNU430C6cd5SQ4oY7xHt3ulfxercXdJQHy6cQXpy8KGrtScbS2qKlRCVHa3BFix1LxB4qrxqqfT3dMFEptApXpDN2LJH49lYTTQSSGfVSQdS24qESJfn6eXog+19GPjXLJSUUiWtojBfx/4F8lNhGWONfCVqxmTHyqiXXD+QtLza1pua+iI3cEtk68jsIjUN42ahIrn4BoBLlPriV8pAAAAAASUVORK5CYII="/>
                             </div>
                             <div class="text"><?php
-                                echo $t['run'] . ' ' . $t['run_metriq'] ?>
+                                echo $t['run'] ?>
                             </div>
                         </div>
                         <div class="power">
@@ -158,13 +160,16 @@ $this->setFrameMode(true);
                     </div>
                     <div class="catalog-card__price">
                         <div class="now"><?php echo $t['price'] ?>₽</div>
-                        <div class="before">1&nbsp;995&nbsp;550&nbsp;₽</div>
+                        <div class="before">
+                            <?php echo $t['price'] ?>&nbsp;₽
+                            <div class="red-line"></div>
+                        </div>
                     </div>
                     <div class="catalog-card__on-credit button-type-e">В кредит от 2 605 ₽/месяц</div>
                 </div>
             </div>
+            </a>
         </article>
-
 
     <? endforeach; ?>
 
