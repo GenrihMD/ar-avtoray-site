@@ -2,6 +2,8 @@ main.catalog
   padding-top: 16px
   padding-bottom: 50px
   background-color: #fafbfc
+  a, a:hover
+    text-decoration: none
 .catalog-container
   .catalog-presets-filter
     section.main
@@ -138,6 +140,7 @@ main.catalog
               font-size: 36px
           .before
             display: flex
+            position: relative
             justify-content: center
             align-items: center
             width: 40%
@@ -150,6 +153,13 @@ main.catalog
             font-weight: 700
             @media (min-width: 750px)
               font-size: 20px
+            .red-line
+              position: absolute
+              top: calc(50% - 3px)
+              left: 8px
+              width: calc(100% - 16px)
+              height: 4px
+              background-color: #dc291a
         .catalog-card__on-credit
           display: none
           @media screen and (min-width: 992px)
