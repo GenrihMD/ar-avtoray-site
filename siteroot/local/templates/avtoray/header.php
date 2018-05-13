@@ -17,7 +17,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 <div id="panel">
     <? $APPLICATION->ShowPanel(); ?>
 </div>
-<header class="container">
+<header class="container page-header">
     <div class="row">
         <div class="logo"><img class="d-none d-md-block" src="/assets/img/logo.png"/><img class="d-md-none"
                                                                                   src="/assets/img/logo-mobile.png"/></div>
