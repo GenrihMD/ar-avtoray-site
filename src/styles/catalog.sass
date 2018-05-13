@@ -54,11 +54,16 @@ main.catalog
             padding: 8px 0
         .catalog-card__images
           position: relative
+          display: flex
+          justify-content: center
+          align-items: center
           img
             width: 100%
-            height: 155px
+            max-width: 100%
+            height: auto
+            //max-height: 155px
             @media (min-width: 992px)
-              height: 230px
+              //max-height: 230px
           .picker
             position: absolute
             top: auto
