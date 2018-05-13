@@ -1,4 +1,5 @@
 import './plugins/vanilla.js';
+import noUiSlider from './vendor/nouislider/nouislider.min.js';
 // import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import './components.js';
 
@@ -26,7 +27,8 @@ const spotMain = function (determinant) {
       .forEach(x => x.classList.remove('collapsed'));
   }
 };
-const cropMain = function () {};
+const cropMain = function () {
+};
 const removeActive = function () {
   this.parents('.wrapper')
     .forEach(x => {
@@ -43,12 +45,16 @@ const doEntrustHandling = function (el, handler) {
   let ev = el.getAttribute('data-entrustby');
   let selector = el.getAttribute('data-entrustto');
   let subj = document.querySelectorAll(selector);
-  try { entrust(el, subj, ev, handler); }
-  catch (e){ console.error(e); }
+  try {
+    entrust(el, subj, ev, handler);
+  }
+  catch (e) {
+    console.error(e);
+  }
 };
 const entrust = function (obj, subj, ev, handler) {
   if (subj.isNodeList === undefined
-    ||subj.isNodeList === null)
+    || subj.isNodeList === null)
     throw new TypeError('Wrong type of subject. Waiting for Node or NodeList');
   subj = subj.isNodeList() ? subj : [subj];
   entruster(obj, subj, ev, handler);
@@ -70,6 +76,16 @@ document
         .addEventListener('click', toggleSet);
 
       document
+        .querySelectorAll('.button-type-a')
+        .addEventListener('click', function () {
+          let state = this.classList.contains('set');
+          this.querySelectorAll('input[type=checkbox]')
+            .forEach(x => {
+              x.checked = state;
+            });
+        });
+
+      document
         .querySelectorAll('.by-mouseleave-resetable')
         .addEventListener('mouseleave', unSet);
 
@@ -88,5 +104,40 @@ document
       document
         .querySelectorAll('.input-type-a input')
         .addEventListener('focus', setActive);
+      //
+      // document
+      //   .querySelectorAll('.range > .slider')
+      //   .forEach(sl => {
+      //     noUiSlider.create(sl, {
+      //       connect: true,
+      //       behaviour: 'tap',
+      //       start: [ 500, 4000 ],
+      //       range: {
+      //         'min': [ 1000 ],
+      //         'max': [ 10000 ]
+      //       }
+      //     });
+      //   });
+
+      document
+        .querySelectorAll('.range-type-a')
+        .forEach(rng => {
+          let minInput = rng.querySelector('input.min');
+          let maxInput = rng.querySelector('input.max');
+          let slider = rng.querySelector('.range > .slider');
+          noUiSlider.create(slider, {
+            connect: true,
+            behaviour: 'tap',
+            start: [ 500, 4000 ],
+            range: {
+              'min': [ 1000 ],
+              'max': [ 10000 ]
+            }
+          });
+          slider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
+            minInput.value = parseInt(values[0]);
+            maxInput.value = parseInt(values[1]);
+          });
+        });
 
     });

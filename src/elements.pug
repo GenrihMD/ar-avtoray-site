@@ -75,12 +75,29 @@ html(lang=ru)
 
 
             .row
-                .input-type-a.col-2
-                    .wrapper
-                        .text от
-                        input(placeholder='0' pattern='[0-9]{1,5}')
-                .input-type-a.col-2
-                    .wrapper
-                        .text до
-                        input(placeholder='0' pattern='[0-9]{1,5}')
+                .row.range-type-a.col-4
+                    .input-type-a.col-6
+                        .wrapper
+                            .text от
+                            input.min(placeholder='0' pattern='[0-9]{1,5}')
+                    .input-type-a.col-6
+                        .wrapper
+                            .text до
+                            input.max(placeholder='0' pattern='[0-9]{1,5}')
+                    .range.col-12
+                        .slider
+
+                .row.range-type-a.col-4
+                    .input-type-a.col-6
+                        .wrapper
+                            .text от
+                            input.min(placeholder='0' pattern='[0-9]{1,5}')
+                    .input-type-a.col-6
+                        .wrapper
+                            .text до
+                            input.max(placeholder='0' pattern='[0-9]{1,5}')
+                    .range.col-12
+                        .slider
+
+
     include footer

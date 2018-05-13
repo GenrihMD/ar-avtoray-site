@@ -1,8 +1,13 @@
+@import "../assets/app/vendor/nouislider/nouislider.min"
+button, input
+  border: none
+  background: transparent
+  outline: none
+
 .link-type-a, .link-type-b, .link,
 .link-type-c, .link-type-d, .link-type-e
   font-family: Circe, sans-serif
   cursor: pointer
-
 
 .button-type-a,
 .button-type-b,
@@ -30,7 +35,6 @@
   -webkit-user-select: none
   -ms-user-select: none
     user-select: none
-
 
 .link-type-a
   color: #002b5a
@@ -226,6 +230,9 @@
     .close-x
       display: none !important
 
+  &>input[type=checkbox]
+    display: none
+
 .button-type-b
   border-radius: 3px
   background-color: #0079ff
@@ -384,6 +391,10 @@
       border: 1px solid #002b5a
     &:active, &:focus, &.focus
       border: 1px solid #002b5a
+.range-type-a
+  .range
+    padding: 20px 5px 0
+
 .filter-container
   position: relative
   top: -1px
