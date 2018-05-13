@@ -392,8 +392,10 @@ button, input
     &:active, &:focus, &.focus
       border: 1px solid #002b5a
 .range-type-a
+  padding: 0
+  margin: 0 auto
   .range
-    padding: 20px 5px 0
+    padding: 20px 5px 10px
 
 .filter-container
   position: relative
@@ -439,3 +441,34 @@ button, input
   display: flex
   justify-content: center
   align-items: center
+
+.noUi-horizontal *
+  outline: none
+
+.noUi-horizontal
+  height: 4px
+  border-radius: 2px
+  border: 1px solid #d7dee5
+  background-color: #fafbfc
+
+.noUi-horizontal .noUi-handle
+  border-radius: 30px
+  width: 24px
+  height: 24px
+  border: 1px solid #d7dee5
+  background-color: #ffffff
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAIElEQVQYV2O8fu/JBwYGRn4GrOD/R0bsEghRwgoGgRUAwVsQo1b3ZGwAAAAASUVORK5CYII=)
+  background-position: center center
+  background-repeat: no-repeat
+
+.noUi-connect
+  height: 4px
+  border: 1px solid #d7dee5
+  background-color: #d7dee5
+
+.noUi-horizontal .noUi-handle
+  left: 0
+  top: -12px
+
+.noUi-handle:after, .noUi-handle:before
+  display: none

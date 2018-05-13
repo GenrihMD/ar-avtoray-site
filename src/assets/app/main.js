@@ -27,8 +27,6 @@ const spotMain = function (determinant) {
       .forEach(x => x.classList.remove('collapsed'));
   }
 };
-const cropMain = function () {
-};
 const removeActive = function () {
   this.parents('.wrapper')
     .forEach(x => {
@@ -98,26 +96,8 @@ document
         .forEach(x => doEntrustHandling(x, unSet));
 
       document
-        .querySelectorAll('.filter-container .main')
-        .forEach(x => x.style.height = getRealHeight(x) + 'px');
-
-      document
         .querySelectorAll('.input-type-a input')
         .addEventListener('focus', setActive);
-      //
-      // document
-      //   .querySelectorAll('.range > .slider')
-      //   .forEach(sl => {
-      //     noUiSlider.create(sl, {
-      //       connect: true,
-      //       behaviour: 'tap',
-      //       start: [ 500, 4000 ],
-      //       range: {
-      //         'min': [ 1000 ],
-      //         'max': [ 10000 ]
-      //       }
-      //     });
-      //   });
 
       document
         .querySelectorAll('.range-type-a')
@@ -125,19 +105,28 @@ document
           let minInput = rng.querySelector('input.min');
           let maxInput = rng.querySelector('input.max');
           let slider = rng.querySelector('.range > .slider');
+          let min = parseInt(slider.getAttribute('data-min'));
+          let max = parseInt(slider.getAttribute('data-max'));
+          let initMin =parseInt( slider.getAttribute('data-initmin'));
+          let initMax = parseInt(slider.getAttribute('data-initmax'));
           noUiSlider.create(slider, {
             connect: true,
             behaviour: 'tap',
-            start: [ 500, 4000 ],
+            start: [ initMin, initMax ],
             range: {
-              'min': [ 1000 ],
-              'max': [ 10000 ]
+              'min': [ min ],
+              'max': [ max ]
             }
           });
-          slider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
+          slider.noUiSlider.on('update', function ( values ) {
             minInput.value = parseInt(values[0]);
             maxInput.value = parseInt(values[1]);
           });
         });
+
+      document
+        .querySelectorAll('.filter-container .main')
+        .forEach(x => x.style.height = getRealHeight(x) + 'px');
+
 
     });
