@@ -1,0 +1,41 @@
+section.dealer-info
+    .container
+        .row
+            h1.
+                Данный автомобиль можно приобрести в салоне Авторай-Эксперт
+            .info-holder.col-12
+                .row
+                    .info.col-12.col-md-5.col-lg-3
+                        h2 Авторай-Эксперт
+                        h3 Время работы:
+                        p ежедневно c 8:00 до 20:00
+                        h3 Адрес:
+                        p Московское ш., 1Д, Ульяновск, Ульяновская область, 432045
+                        .button
+                            .button-type-d.
+                                Заказать обратный звонок
+                    #map.map-holder.col-12.col-md-7.col-lg-9
+                    .
+                        <script>
+                            var map;
+                                function initMap() {
+                                    var myLatLng = {lat: 54.291415, lng: 48.264305};
+                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 17,
+                                    center: myLatLng
+                                });
+
+                               var marker = new google.maps.Marker({
+                                        position: myLatLng,
+                                        map: map,
+                                        title: 'Hello World!'
+                                    });
+                                }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT8ZzdAOGk9wP1i65nRdvzG1kjI4iuWYU&callback=initMap"
+                        async defer></script>
+
+
+
+
+
