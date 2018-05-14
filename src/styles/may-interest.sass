@@ -1,0 +1,140 @@
+section.may-interest
+  padding-top: 24px
+  padding-bottom: 24px
+  @media (min-width: 750px)
+    padding-top: 40px
+    padding-bottom: 40px
+  h1
+    color: #000000
+    font-family: Circe, sans-serif
+    font-weight: 300
+    line-height: 40px
+    font-size: 24px
+    padding-bottom: 8px
+    line-height: 1.2
+    @media (min-width: 750px)
+      font-size: 32px
+  .cards
+    padding-left: 15px
+    padding-right: 15px
+    > div
+      padding: 0 12px
+    article.catalog-card
+      margin-top: 16px
+      border: 1px solid #d7dee5
+      background-color: #fafbfc
+      position: relative
+      width: 100%
+      padding: 2px
+      cursor: pointer
+      .catalog-card__border
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        border: 1px solid #d7dee5
+        background-color: #fafbfc
+        transition: all .01s
+      .catalog-card__content
+        position: relative
+        z-index: 19
+        display: flex
+        flex-direction: column
+        .catalog-card__images
+          position: relative
+          display: flex
+          justify-content: center
+          align-items: center
+          img
+            width: 100%
+            max-width: 100%
+            height: 160px
+        .catalog-card__title
+          padding-top: 16px
+          display: flex
+          justify-content: space-between
+          h1
+            color: #000000
+            font-family: Circe, sans-serif
+            font-size: 18px
+            font-weight: 700
+            padding-left: 8px
+            line-height: 1
+        .catalog-card__options
+          display: flex
+          justify-content: space-between
+          flex-wrap: wrap
+          padding: 5px 0
+          border-top: 1px solid #d7dee5
+          border-bottom:  1px solid #d7dee5
+          .year, .mileage,
+          .power,.gearbox
+            display: -webkit-box
+            width: 50%
+            padding: 5px 11px
+            .icon
+              display: flex
+              justify-content: center
+              align-items: center
+            .text
+              margin-left: 8px
+              color: #000000
+              font-family: Circe, sans-serif
+              font-size: 16px
+              font-weight: 400
+        .catalog-card__price
+          display: flex
+          justify-content: space-between
+          align-items: center
+          padding: 15px
+          .now
+            color: #000000
+            font-family: Circe, sans-serif
+            font-size: 24px
+            font-weight: 700
+          .before
+            display: flex
+            position: relative
+            justify-content: center
+            align-items: center
+            width: 40%
+            height: 36px
+            border-radius: 3px
+            border: 1px solid #d7dee5
+            color: #99aabd
+            font-family: Circe, sans-serif
+            font-size: 14px
+            font-weight: 700
+            .red-line
+              position: absolute
+              top: calc(50% - 3px)
+              left: 8px
+              width: calc(100% - 16px)
+              height: 4px
+              background-color: #dc291a
+
+      &:hover
+        z-index: 25
+        @media screen and (min-width: 750px)
+          .catalog-card__border
+            width: calc(100% + 40px)
+            height: calc(100% + 40px)
+            top: -20px
+            left: -20px
+            background-color: #ffffff
+          .catalog-card__content .catalog-card__title h1
+            color: #007aff
+
+      &:active
+        z-index: 25
+        @media screen and (min-width: 750px)
+          .catalog-card__border
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            background-color: #ffffff
+            box-shadow: 0 0 80px rgba(0, 43, 90, 0.08)
+          .catalog-card__content .catalog-card__title h1
+            color: #0052ac
