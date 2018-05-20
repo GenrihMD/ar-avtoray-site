@@ -19,47 +19,31 @@ $this->setFrameMode(true);
 
 
 <div class="catalog-presets-filter filter-container container">
-    <header class="row by-click-changable"><p class="title col-6">Готовые подборки<span
-                    class="d-none d-md-inline">по популярным категориям</span></p>
+    <header class="row by-click-changable">
+        <p class="title col-6">Готовые подборки<span
+                    class="d-none d-md-inline"> по популярным категориям</span></p>
         <div class="collapser col-6">
-            <div class="link-type-c by-click-changable">collapse</div>
+            <div class="link-type-c by-click-changable">Свернуть</div>
         </div>
     </header>
     <section class="main row">
         <div class="filter-button">
-            <div class="button-type-a by-click-changable">filter with a long name
+            <a href="/cat.php/?arrFilter_138_MAX=1000000&set_filter=Показать">
+            <div class="button-type-a">До 1 000 000р
                 <div class="close-x"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
                 </div>
             </div>
+            </a>
         </div>
         <div class="filter-button">
-            <div class="button-type-a by-click-changable">filter
+            <a href="/cat.php/?arrFilter_125_402540211=Y&arrFilter_138_MIN=1500000&set_filter=Показать">
+            <div class="button-type-a">Внедорожник от 1 500 000р
                 <div class="close-x"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
                 </div>
             </div>
-        </div>
-        <div class="filter-button">
-            <div class="button-type-a by-click-changable">filter
-                <div class="close-x"><img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
-                </div>
-            </div>
-        </div>
-        <div class="filter-button">
-            <div class="button-type-a by-click-changable">filter with a long name
-                <div class="close-x"><img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
-                </div>
-            </div>
-        </div>
-        <div class="filter-button">
-            <div class="button-type-a by-click-changable">filter with a very very long name 2018
-                <div class="close-x"><img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
-                </div>
-            </div>
+            </a>
         </div>
     </section>
 </div>

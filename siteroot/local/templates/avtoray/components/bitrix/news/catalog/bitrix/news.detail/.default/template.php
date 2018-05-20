@@ -1,4 +1,4 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -14,6 +14,22 @@ $this->setFrameMode(true);
 ?>
 <?php
 $props = $arResult["DISPLAY_PROPERTIES"];
+
+
+$dealerLink = $props['CAR_DEALER'];
+$dealerLinkValue = (int)$dealerLink['VALUE'];
+$dealerElementID = $dealerLinkValue;
+//$dealerElementID = (int)$dealerLink['ID'];
+//$dealerIBlockID = (int)$dealerIBlock['IBLOCK_ID'];
+
+
+$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+$arFilter = Array("ID" => $dealerElementID,"ACTIVE" => "Y");
+$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+
+$dealer_props = $res->GetNextElement()->GetProperties();
+var_dump($PROPS);
+
 $t = [
     'mark' => $props['MARK']['DISPLAY_VALUE'],
     'model' => $props['MODEL']['DISPLAY_VALUE'],
@@ -24,10 +40,32 @@ $t = [
     'transmission' => $props['TRANSMISSION']['DISPLAY_VALUE'],
     'run' => $props['RUN']['DISPLAY_VALUE'],
     'run_metric' => $props['RUN_METRIC']['DISPLAY_VALUE'],
+    'additional_info_exterior' => $props['ADDITIONAL_INFO_EXTERIOR']['DISPLAY_VALUE'],
+    'additional_info_interior' => $props['ADDITIONAL_INFO_INTERIOR']['VALUE'],
+    'additional_info_safety' => $props['ADDITIONAL_INFO_SAFETY']['VALUE'],
+    'additional_info_comfort' => $props['ADDITIONAL_INFO_COMFORT']['VALUE'],
+    'additional_info_warranty' => $props['ADDITIONAL_INFO_WARRANTY']['VALUE'],
     'image' => $props['IMAGE']['VALUE'][0],
+    'dealer_name' => $dealer_props['NAME']['VALUE'],
+    'dealer_longitude' => $dealer_props['LONGITUDE']['VALUE'],
+    'dealer_latitude' => $dealer_props['LATITUDE']['VALUE'],
+    'dealer_address' => $dealer_props['ADDRESS']['VALUE'],
+    'dealer_phonenumber' => $dealer_props['PHONENUMBER']['VALUE'],
+    'dealer_www' => $dealer_props['WWW']['VALUE'],
+//    'dealer_' => '',
+//    'dealer_' => '',
+//    'dealer_' => '',
+//    '' => '',
 ];
-$t['price'] = number_format($t['price'], 0,',', ' ');
-$t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
+
+$t['price'] = number_format($t['price'], 0, ',', ' ');
+$t['run'] = $t['run'] > 0 ? $t['run'] . ' ' . $t['run'] : 'без пробега';
+$t['additional_info_exterior'] = str_replace('•', '<br>•', $t['additional_info_exterior']);
+$t['additional_info_interior'] = str_replace('•', '<br>•', $t['additional_info_interior']);
+$t['additional_info_safety'] = str_replace('•', '<br>•', $t['additional_info_safety']);
+$t['additional_info_comfort'] = str_replace('•', '<br>•', $t['additional_info_comfort']);
+$t['additional_info_warranty'] = str_replace('•', '<br>•', $t['additional_info_warranty']);
+
 ?>
 <main class="catalog-detail">
     <div class="container">
@@ -50,7 +88,7 @@ $t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5">
+            <div class="col-12">
                 <div class="right-panel"><h1 class="name"><?php
                         echo $t['mark'] . ' ' . $t['model'] ?></h1>
                     <div class="features row">
@@ -62,14 +100,64 @@ $t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
                             </div>
                         </div>
                     </div>
-                    <div class="desctiption"><h2>Комплектация</h2>
-                        <p>Независимая подвеска, амортизационная стойка типа «МакФерсон» / Передние противотуманные фары
-                            / Заводская тонировка / Кожаная оплетка рулевого колеса / Телескопическая регулировка
-                            руля</p>
-                        <h2>Комплектация</h2>
-                        <p>Независимая подвеска, амортизационная стойка типа «МакФерсон» / Передние противотуманные фары
-                            / Заводская тонировка / Кожаная оплетка рулевого колеса / Телескопическая регулировка руля
-                        </p></div>
+                    <div class="desctiption">
+
+                        <div class="catalog-presets-filter filter-container container"
+                             style="border: none; cursor: pointer">
+                            <header class="row by-click-changable">
+                                <div class="title col-6"><h2>Внешний вид</h2></div>
+                            </header>
+                            <section class="main row" style="padding: 0 15px;">
+                                <main class="row">
+                                    <p><?php echo $t['additional_info_exterior'] ?></p>
+                                </main>
+                        </div>
+
+                        <div class="catalog-presets-filter filter-container container"
+                             style="border: none; cursor: pointer">
+                            <header class="row by-click-changable">
+                                <div class="title col-6"><h2>Внутрення отделка</h2></div>
+                            </header>
+                            <section class="main row" style="padding: 0 15px;">
+                                <main class="row">
+                                    <p><?php echo $t['additional_info_interior'] ?></p>
+                                </main>
+                        </div>
+
+                        <div class="catalog-presets-filter filter-container container"
+                             style="border: none; cursor: pointer">
+                            <header class="row by-click-changable">
+                                <div class="title col-6"><h2>Безопасность</h2></div>
+                            </header>
+                            <section class="main row" style="padding: 0 15px;">
+                                <main class="row">
+                                    <p><?php echo $t['additional_info_safety'] ?></p>
+                                </main>
+                        </div>
+
+                        <div class="catalog-presets-filter filter-container container"
+                             style="border: none; cursor: pointer">
+                            <header class="row by-click-changable">
+                                <div class="title col-6"><h2>Комфорт</h2></div>
+                            </header>
+                            <section class="main row" style="padding: 0 15px;">
+                                <main class="row">
+                                    <p><?php echo $t['additional_info_comfort'] ?></p>
+                                </main>
+                        </div>
+
+                        <div class="catalog-presets-filter filter-container container"
+                             style="border: none; cursor: pointer">
+                            <header class="row by-click-changable">
+                                <div class="title col-6"><h2>Дополнительно</h2></div>
+                            </header>
+                            <section class="main row" style="padding: 0 15px;">
+                                <main class="row">
+                                    <p><?php echo $t['additional_info_warranty'] ?></p>
+                                </main>
+                        </div>
+
+                    </div>
                     <div class="buy-and-price__holder row">
                         <div class="col-12 col-md-4 col-lg-6">
                             <div class="price"> <?php echo $t['price'] ?>₽</div>
@@ -86,6 +174,7 @@ $t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
         </div>
     </div>
 </main>
+
 <section class="dealer-info">
     <div class="container">
         <div class="row"><h1>Данный автомобиль можно приобрести в салоне Авторай-Эксперт</h1>
@@ -95,17 +184,25 @@ $t['run'] = $t['run'] > 0 ? $t['run'].' '.$t['run'] : 'без пробега';
                         <h3>Время работы:</h3>
                         <p>ежедневно c 8:00 до 20:00</p>
                         <h3>Адрес:</h3>
-                        <p>Московское ш., 1Д, Ульяновск, Ульяновская область, 432045</p>
+                        <p><?php echo $t['dealer_address']?></p>
+                        <h3>Телефон:</h3>
+                        <p><?php echo $t['dealer_phonenumber']?></p>
                         <div class="button">
                             <div class="button-type-d">Заказать обратный звонок</div>
                         </div>
                     </div>
-                    <div class="map-holder col-12 col-md-7 col-lg-9" id="map"></div>
+                    <div class="map-holder col-12 col-md-7 col-lg-9" id="map">
+
+
+                    </div>
                     <script>
                       var map;
 
                       function initMap() {
-                        var myLatLng = {lat: 54.291415, lng: 48.264305};
+                        var myLatLng = {
+                          lat: <? echo $t['dealer_latitude'] != 0 ? $t['dealer_latitude'] : 54.291415?>,
+                          lng: <? echo $t['dealer_longitude'] != 0 ? $t['dealer_longitude'] : 48.26430?>
+                        };
                         var map = new google.maps.Map(document.getElementById('map'), {
                           zoom: 14,
                           center: myLatLng,

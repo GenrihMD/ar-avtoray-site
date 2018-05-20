@@ -47,7 +47,7 @@ const doEntrustHandling = function (el, handler) {
     entrust(el, subj, ev, handler);
   }
   catch (e) {
-    console.error(e);
+    console.error('error: ', e);
   }
 };
 const entrust = function (obj, subj, ev, handler) {

@@ -131,3 +131,32 @@ $this->setFrameMode(true);
         </div>
     </div>
 </main>
+
+
+<section class="noFoundBlock">
+    <div class="container">
+        <div class="video-bg"><img src="/assets/img/noFoundBlock__video-bg.png"/></div>
+        <div class="row">
+            <div class="content-holder col-lg-6 m-lg-6"><h1>Не нашли нужный автомобиль?</h1>
+                <h2>Мы привезем его под заказ!</h2>
+                <div class="buttons">
+                    <div class="a button-type-g">Заказать автомобиль</div>
+                    <div class="b button-tttop"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="followUsBlock">
+    <div class="container">
+        <div class="row">
+            <div class="right col-12 col-lg-5 offset-lg-1"><h1>Новости! Скидки!<br class="d-lg-none"/>Акции!</h1>
+                <h2>Подпишитесь на нашу рассылку в Telegram</h2>
+                <div class="subscribe-button button-type-j">Подписаться</div>
+            </div>
+            <div class="left col-12 col-lg-6"><img class="a320" src="/assets/img/chat1.png"/><img class="b750"
+                                                                                                  src="/assets/img/chat2.png"/><img
+                        class="c992" src="/assets/img/chat3.png"/></div>
+        </div>
+    </div>
+</div>

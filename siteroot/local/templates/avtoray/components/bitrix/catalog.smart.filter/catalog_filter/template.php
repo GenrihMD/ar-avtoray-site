@@ -24,13 +24,56 @@ $this->setFrameMode(true);
             //not prices
             foreach($arResult["ITEMS"] as $key=>$arItem)
             {
-                if (
-                    $arItem["DISPLAY_TYPE"] == "A"
-                    && (
-                        $arItem["VALUES"]["MAX"]["VALUE"] - $arItem["VALUES"]["MIN"]["VALUE"] <= 0
-                    )
-                )
+                if ($arItem["DISPLAY_TYPE"] == "A"
+                    && ($arItem["VALUES"]["MAX"]["VALUE"] - $arItem["VALUES"]["MIN"]["VALUE"] <= 0)) continue;
+
+                if ($arItem["ID"] == 136) {
+                    ?>
+                <article class="filter-container container">
+
+                    <header class="row by-click-changable"><p class="title col-6">
+                            <?=$arItem["NAME"]?>
+                        </p>
+                        <div class="collapser col-6">
+                            <div class="link-type-c by-click-changable">collapse</div>
+                        </div>
+                    </header>
+
+                    <section class="main row">
+                    <div class="col-6 filter-button">
+                        <div class="button-type-a by-click-changable <? echo $ar["CHECKED"] == 'Y' ? 'set' : '' ?>">
+                            С&nbsp;пробегом   <!--span data-role="count_<?=$ar["CONTROL_ID"]?>"><? echo $ar["ELEMENT_COUNT"]; ?></span-->
+                            <div class="close-x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/></div>
+                            <input
+                                    type="checkbox"
+                                    value="1"
+                                    name="arrFilter_136_MIN"
+                                    id="<? echo $ar["CONTROL_ID"] ?>"
+                                <? echo $ar["CHECKED"]? 'checked="checked"': '' ?>
+                                    onclick="smartFilter.click(this)"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-6 filter-button">
+                        <div class="button-type-a by-click-changable <? echo $ar["CHECKED"] == 'Y' ? 'set' : '' ?>">
+                            Без&nbsp;пробега    <!--span data-role="count_<?=$ar["CONTROL_ID"]?>"><? echo $ar["ELEMENT_COUNT"]; ?></span-->
+                            <div class="close-x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/></div>
+                            <input
+                                    type="checkbox"
+                                    value="1"
+                                    name="arrFilter_136_MAX"
+                                    id="0"
+                                <? echo $ar["CHECKED"]? 'checked="checked"': '' ?>
+                                    onclick="smartFilter.click(this)"
+                            />
+                        </div>
+                    </div>
+                    </section>
+                </article>
+                    <?php
                     continue;
+                }
+
                 ?>
 
 
