@@ -12,9 +12,6 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-
-
-
     <form name="<?echo $arResult["FILTER_NAME"]."_form"?>" action="<?echo $arResult["FORM_ACTION"]?>" method="get" class="smartfilter">
 
             <?foreach($arResult["HIDDEN"] as $arItem):?>
@@ -27,15 +24,15 @@ $this->setFrameMode(true);
                 if ($arItem["DISPLAY_TYPE"] == "A"
                     && ($arItem["VALUES"]["MAX"]["VALUE"] - $arItem["VALUES"]["MIN"]["VALUE"] <= 0)) continue;
 
-                if ($arItem["ID"] == 136) {
-                    ?>
+                if ($arItem["ID"] == 136) {?>
+
                 <article class="filter-container container">
 
                     <header class="row by-click-changable"><p class="title col-6">
                             <?=$arItem["NAME"]?>
                         </p>
                         <div class="collapser col-6">
-                            <div class="link-type-c by-click-changable">collapse</div>
+                            <div class="link-type-c by-click-changable">свернуть</div>
                         </div>
                     </header>
 
@@ -69,12 +66,9 @@ $this->setFrameMode(true);
                         </div>
                     </div>
                     </section>
-                </article>
-                    <?php
-                    continue;
-                }
-
-                ?>
+                </article><?php
+                continue;
+                }?>
 
 
                 <article class="filter-container container">
@@ -83,7 +77,7 @@ $this->setFrameMode(true);
                             <?=$arItem["NAME"]?>
                         </p>
                         <div class="collapser col-6">
-                            <div class="link-type-c by-click-changable">collapse</div>
+                            <div class="link-type-c by-click-changable">свернуть</div>
                         </div>
                     </header>
 
@@ -124,11 +118,9 @@ $this->setFrameMode(true);
                                              data-max="<?php echo $filterMaximum;?>">
                                         </div>
                                     </div>
-                                </div>
-                            <?
+                                </div><?
                             break;
-                            case "B"://NUMBERS
-                            ?>
+                            case "B": //NUMBERS?>
                                 <div class="col-6 input-type-a">
                                     <div class="wrapper">
                                         <div class="text">от</div>
@@ -154,11 +146,11 @@ $this->setFrameMode(true);
                                                 size="5"
                                                 onkeyup="smartFilter.keyup(this)"
                                         /></div>
-                                </div>
-                            <?
+                                </div><?
+
                             break;
-                            default://CHECKBOXES
-                            ?>
+                            default: //CHECKBOXES?>
+
                             <?foreach($arItem["VALUES"] as $val => $ar):?>
                                 <div class="col-6 filter-button">
                                     <div class="button-type-a by-click-changable <? echo $ar["CHECKED"] == 'Y' ? 'set' : '' ?>">
@@ -174,17 +166,13 @@ $this->setFrameMode(true);
                                         />
                                     </div>
                                 </div>
-                            <?endforeach;?>
-                                <?
-                            }
-                            ?>
+                            <?endforeach;?><?php
+                            }?>
 
                     </section>
 
-                </article>
-                <?
-            }
-            ?>
+                </article><?php
+            }?>
 
             <article class="filter-container container filter-buttons">
                 <div class="main row">
