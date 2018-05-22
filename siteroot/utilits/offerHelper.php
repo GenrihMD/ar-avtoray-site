@@ -51,6 +51,7 @@ function createOffer($bitrixFieldsArray)
     $cIBlockElementHelper->Add(
         $bitrixFieldsArray
     );
+    var_dump($bitrixFieldsArray);
 }
 
 function bitrixFieldsArray($name, $params)
@@ -59,7 +60,7 @@ function bitrixFieldsArray($name, $params)
     return Array(
         "MODIFIED_BY" => $USER->GetID(),
         "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
-        "IBLOCK_ID" => 3,
+        "IBLOCK_ID" => 2,
         "PROPERTY_VALUES" => $params,
         "NAME" => $name,
         "ACTIVE" => "Y",            // активен
