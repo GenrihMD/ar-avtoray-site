@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0957d2-4a23-4c4e-a612-fd444c52101f" name="Default" comment="get all cars">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+    <list default="true" id="6a0957d2-4a23-4c4e-a612-fd444c52101f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php" afterPath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php" afterPath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php" afterPath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php" afterPath="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteroot/local/templates/avtoray/header.php" afterPath="$PROJECT_DIR$/siteroot/local/templates/avtoray/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catalog-detail.pug" afterPath="$PROJECT_DIR$/src/catalog-detail.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/catalog-detail.sass" afterPath="$PROJECT_DIR$/src/styles/catalog-detail.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/catalog.sass" afterPath="$PROJECT_DIR$/src/styles/catalog.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/may-interest.sass" afterPath="$PROJECT_DIR$/src/styles/may-interest.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/you-viewed.sass" afterPath="$PROJECT_DIR$/src/styles/you-viewed.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,12 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="66" lean-forward="false" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+              <folding>
+                <element signature="e#1077#1083#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,28 +46,30 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="577" column="63" lean-forward="true" selection-start-line="577" selection-start-column="63" selection-end-line="577" selection-end-column="63" />
+            <state relative-caret-position="-1207">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="you-viewed.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/you-viewed.sass">
+      <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="13" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+              <folding>
+                <element signature="e#2950#3262#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/section.php">
+      <file leaf-file-name="catalog.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/catalog.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="256">
+              <caret line="273" column="17" lean-forward="false" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -80,60 +78,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2006">
-              <caret line="5" column="1077" lean-forward="false" selection-start-line="5" selection-start-column="1077" selection-end-line="5" selection-end-column="1077" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="e#1552#1864#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".parameters.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/.parameters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rss.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/rss.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1432">
-              <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="5" column="2544" lean-forward="false" selection-start-line="5" selection-start-column="2543" selection-end-line="5" selection-end-column="2544" />
               <folding />
             </state>
           </provider>
@@ -181,6 +127,7 @@
       <find>$property</find>
       <find>/cat.php/</find>
       <find>/cat.php</find>
+      <find>sor</find>
     </findStrings>
     <replaceStrings>
       <replace>setToggler</replace>
@@ -216,7 +163,6 @@
         <option value="&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/local/templates/avtoray/components/bitrix/catalog.section/.default/template.php" />
         <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/section.php" />
         <option value="&lt;a4f2f8ac-9877-4f68-9aad-1a95b6e494fc&gt;/local/templates/avtoray/components/bitrix/news/catalog/section.php" />
-        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php" />
         <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.index/.default/template.php" />
         <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/photo/template.php" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
@@ -249,14 +195,15 @@
         <option value="$PROJECT_DIR$/src/catalog-detail.pug" />
         <option value="$PROJECT_DIR$/dist/catalog-detail.html" />
         <option value="$PROJECT_DIR$/src/styles/catalog-detail.sass" />
-        <option value="$PROJECT_DIR$/dist/styles/style.css" />
-        <option value="$PROJECT_DIR$/src/styles/catalog.sass" />
         <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/header.php" />
         <option value="$PROJECT_DIR$/src/styles/may-interest.sass" />
-        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/src/styles/you-viewed.sass" />
+        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php" />
+        <option value="$PROJECT_DIR$/src/styles/catalog.sass" />
+        <option value="$PROJECT_DIR$/dist/styles/style.css" />
         <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php" />
+        <option value="$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php" />
       </list>
     </option>
   </component>
@@ -331,112 +278,13 @@
             <path>
               <item name="clear" type="b2602c69:ProjectViewProjectNode" />
               <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="clear" type="b2602c69:ProjectViewProjectNode" />
               <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news.list" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="clear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clear" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="avtoray" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news.list" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="clear" type="b2602c69:ProjectViewProjectNode" />
@@ -606,14 +454,7 @@
       <workItem from="1526728480388" duration="4166000" />
       <workItem from="1526787880261" duration="11903000" />
       <workItem from="1526880061696" duration="33381000" />
-      <workItem from="1527070374461" duration="6232000" />
-    </task>
-    <task id="LOCAL-00013" summary="add button type i and type j">
-      <created>1525776257411</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1525776257411</updated>
+      <workItem from="1527070374461" duration="16694000" />
     </task>
     <task id="LOCAL-00014" summary="make done follow us block">
       <created>1525776296847</created>
@@ -951,11 +792,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526986833021</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="blyat'.. day bog nikto ne prochitajet =)">
+      <created>1527081247037</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1527081247038</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263050000" />
+    <option name="totallyTimeSpent" value="273512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="0" width="1368" height="741" extended-state="6" />
@@ -964,26 +812,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.453997" sideWeight="0.5151057" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17797889" sideWeight="0.4879154" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26093516" sideWeight="0.48489425" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23942599" sideWeight="0.24693878" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141994" sideWeight="0.26067415" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="203" y="392" width="745" height="196" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27785236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4652568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3542296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18051359" sideWeight="0.57247704" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.75306123" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141994" sideWeight="0.7393258" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730016" sideWeight="0.49697885" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="203" y="392" width="745" height="196" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -994,7 +842,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exclude app/mainJS" />
     <MESSAGE value="restyle thumb img" />
     <MESSAGE value="construct filter" />
     <MESSAGE value="construct filter in catalog" />
@@ -1019,7 +866,8 @@
     <MESSAGE value="week work do that need" />
     <MESSAGE value="get all cars" />
     <MESSAGE value="marked up features" />
-    <option name="LAST_COMMIT_MESSAGE" value="marked up features" />
+    <MESSAGE value="blyat'.. day bog nikto ne prochitajet =)" />
+    <option name="LAST_COMMIT_MESSAGE" value="blyat'.. day bog nikto ne prochitajet =)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,6 +1038,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#727#876#0" expanded="false" />
+            <element signature="e#2238#3941#0" expanded="false" />
+            <element signature="e#3955#5798#0" expanded="false" />
+            <element signature="e#5819#6387#0" expanded="false" />
+            <element signature="e#6403#7501#0" expanded="false" />
+            <element signature="e#7517#7784#0" expanded="false" />
+            <element signature="e#7800#8086#0" expanded="false" />
+            <element signature="e#8102#8356#0" expanded="false" />
+            <element signature="e#8372#8679#0" expanded="false" />
+            <element signature="e#8695#9017#0" expanded="false" />
+            <element signature="e#9033#9384#0" expanded="false" />
+            <element signature="e#10395#10650#0" expanded="false" />
+            <element signature="e#10665#11459#0" expanded="false" />
+            <element signature="e#12249#12358#0" expanded="false" />
+            <element signature="e#12791#12938#2" expanded="false" />
+            <marker date="1526228958835" expanded="false" signature="12373:12487" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,6 +1119,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
           <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,6 +1156,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#1009#1655#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,14 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/catalog.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1337,14 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1353,58 +1207,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="66" lean-forward="false" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="577" column="63" lean-forward="true" selection-start-line="577" selection-start-column="63" selection-end-line="577" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2006">
-          <caret line="5" column="1077" lean-forward="false" selection-start-line="5" selection-start-column="1077" selection-end-line="5" selection-end-column="1077" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/you-viewed.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/section.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="714">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/detail.php">
+    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/list/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1432">
-          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1417,12 +1231,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/you-viewed.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.detail/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/catalog.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="273" column="17" lean-forward="false" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="2544" lean-forward="false" selection-start-line="5" selection-start-column="2543" selection-end-line="5" selection-end-column="2544" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding>
-            <element signature="e#1552#1864#0#PHP" expanded="false" />
+            <element signature="e#2950#3262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteroot/local/templates/avtoray/components/bitrix/news/catalog/bitrix/news.list/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding>
+            <element signature="e#1077#1083#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

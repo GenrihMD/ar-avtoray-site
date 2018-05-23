@@ -12,13 +12,39 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 
+// I'm very ashamed of this code. But I have not chance and time to do any other;
 if ($_GET["SORT_BY"]) {
-
+    $sortBy = explode('_', strtoupper($_GET["SORT_BY"]));
+    if ($sortBy[0] == "P") {
+        $arParams["SORT_BY1"] = "property_PRICE";
+        $arParams["SORT_BY2"] = "property_YEAR";
+        $arParams["SORT_ORDER1"] = $sortBy[1] == "A" ? "ASC" : "DESC";
+        $arParams["SORT_ORDER2"] = $sortBy[2] == "A" ? "ASC" : "DESC";
+        $sortByYearClass = " noactive ";
+        $sortByPriceClass = " active ";
+    } else {
+        $arParams["SORT_BY2"] = "property_PRICE";
+        $arParams["SORT_BY1"] = "property_YEAR";
+        $arParams["SORT_ORDER2"] = $sortBy[1] == "A" ? "ASC" : "DESC";
+        $arParams["SORT_ORDER1"] = $sortBy[2] == "A" ? "ASC" : "DESC";
+        $sortByYearClass = " active ";
+        $sortByPriceClass = " noactive ";
+    }
+    // kill me please, Imma bitrix-developer, I write bitrix-like code
+    $_SESSION['sortByYearGetParam'] = "y_" . $sortBy[1] . "_" . ($sortBy[2] == "A" ? "D" : "A");
+    $_SESSION['sortByPriceGetParam'] = "p_" . ($sortBy[1] == "A" ? "D" : "A") . "_" . $sortBy[2];
+    $_SESSION['sortByYearClass'] = ($sortBy[2] == "A" ? "" : "set ") . $sortByYearClass;
+    $_SESSION['sortByPriceClass'] = ($sortBy[1] == "A" ? "" : "set ") . $sortByPriceClass;
+} else {
+    $arParams["SORT_BY1"] = "property_PRICE";
+    $arParams["SORT_ORDER1"] = "ASC";
+    $arParams["SORT_BY2"] = "property_YEAR";
+    $arParams["SORT_ORDER2"] = "ASC";
+    $_SESSION['sortByYearGetParam'] = "y_a_a";
+    $_SESSION['sortByPriceGetParam'] = "p_a_a";
 }
-$arParams["SORT_BY1"] = "property_PRICE";
-$arParams["SORT_ORDER1"] = "ASC";
-$arParams["SORT_BY2"] = "property_YEAR";
-$arParams["SORT_ORDER2"] = "DESC";
+
+
 ?>
 
 <? if ($arParams["USE_RSS"] == "Y"): ?>
@@ -49,32 +75,32 @@ $arParams["SORT_ORDER2"] = "DESC";
         <div class="row">
 
             <? if ($arParams["USE_FILTER"] == "Y"): ?>
-            <aside class="catalog-aside col-12 col-lg-3">
-            <? $APPLICATION->IncludeComponent(
-                    "bitrix:catalog.smart.filter",
-	                "catalog_filter",
-                    Array(
-                        "CACHE_GROUPS" => "Y",
-                        "CACHE_TIME" => "36000000",
-                        "CACHE_TYPE" => "A",
-                        "DISPLAY_ELEMENT_COUNT" => "Y",
-                        "FILTER_NAME" => "arrFilter",
-                        "IBLOCK_ID" => "2",
-                        "IBLOCK_TYPE" => "catalog",
-                        "PAGER_PARAMS_NAME" => "arrPager",
-                        "POPUP_POSITION" => "left",
-                        "SAVE_IN_SESSION" => "N",
-                        "SECTION_CODE" => "",
-                        "SECTION_DESCRIPTION" => "-",
-                        "SECTION_ID" => $_REQUEST["SECTION_ID"],
-                        "SECTION_TITLE" => "-",
-                        "SEF_MODE" => "N",
-                        "TEMPLATE_THEME" => "blue",
-                        "XML_EXPORT" => "N",
+                <aside class="catalog-aside col-12 col-lg-3">
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:catalog.smart.filter",
+                        "catalog_filter",
+                        Array(
+                            "CACHE_GROUPS" => "Y",
+                            "CACHE_TIME" => "36000000",
+                            "CACHE_TYPE" => "A",
+                            "DISPLAY_ELEMENT_COUNT" => "Y",
+                            "FILTER_NAME" => "arrFilter",
+                            "IBLOCK_ID" => "2",
+                            "IBLOCK_TYPE" => "catalog",
+                            "PAGER_PARAMS_NAME" => "arrPager",
+                            "POPUP_POSITION" => "left",
+                            "SAVE_IN_SESSION" => "N",
+                            "SECTION_CODE" => "",
+                            "SECTION_DESCRIPTION" => "-",
+                            "SECTION_ID" => $_REQUEST["SECTION_ID"],
+                            "SECTION_TITLE" => "-",
+                            "SEF_MODE" => "N",
+                            "TEMPLATE_THEME" => "blue",
+                            "XML_EXPORT" => "N",
 
-                    )
-                ); ?>
-            </aside>
+                        )
+                    ); ?>
+                </aside>
             <? endif ?>
 
             <div class="catalog-container col-12 col-lg-9 unSeter" data-entrustby="click"

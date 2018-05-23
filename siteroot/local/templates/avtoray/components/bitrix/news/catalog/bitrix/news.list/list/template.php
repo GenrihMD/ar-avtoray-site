@@ -13,7 +13,7 @@
      data-entrustto=".catalog-aside">
     <div class="catalog-presets-filter filter-container container">
         <header class="row by-click-changable"><p class="title col-6">Готовые подборки<span
-                        class="d-none d-md-inline">по популярным категориям</span></p>
+                        class="d-none d-md-inline"> по популярным категориям</span></p>
             <div class="collapser col-6">
                 <div class="link-type-c by-click-changable">collapse</div>
             </div>
