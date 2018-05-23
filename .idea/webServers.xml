@@ -3,9 +3,9 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="a4f2f8ac-9877-4f68-9aad-1a95b6e494fc" name="avtoray.genrih-md.myjino.ru" url="">
-        <fileTransfer host="genrih-md.myjino.ru" port="21" rootFolder="/root/avtoray">
+        <fileTransfer host="genrih-md.myjino.ru" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>

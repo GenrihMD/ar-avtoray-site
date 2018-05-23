@@ -28,7 +28,7 @@ $this->setFrameMode(true);
     </header>
     <section class="main row">
         <div class="filter-button">
-            <a href="/cat.php/?arrFilter_138_MAX=1000000&set_filter=Показать">
+            <a href="/catalog/?arrFilter_138_MAX=1000000&set_filter=Показать">
             <div class="button-type-a">До 1 000 000р
                 <div class="close-x"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
@@ -37,7 +37,7 @@ $this->setFrameMode(true);
             </a>
         </div>
         <div class="filter-button">
-            <a href="/cat.php/?arrFilter_125_402540211=Y&arrFilter_138_MIN=1500000&set_filter=Показать">
+            <a href="/catalog/?arrFilter_125_402540211=Y&arrFilter_138_MIN=1500000&set_filter=Показать">
             <div class="button-type-a">Внедорожник от 1 500 000р
                 <div class="close-x"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWUlEQVQoU3WO0Q2AMAhE301mR6mTaTfRyTA0tGlJ5AuOB3cyswockk6Wmno0F3APaNGa/GiFgBfwgyapdiBBPvalN3/AtMsWDXjCokPaAsXbLXgMZXimTOUDrCI6e4MWoJYAAAAASUVORK5CYII="/>
@@ -50,7 +50,7 @@ $this->setFrameMode(true);
 <div class="catalog-sort filter-container">
     <div class="sorters">
         <div class="sorters-title">Сортировать:</div>
-        <div class="sorter link-type-d by-click-changable">sort by it</div>
+        <div class="sorter link-type-d by-click-changable">По цене</div>
         <div class="sorter link-type-d by-click-changable">sort by it</div>
     </div>
     <div class="filter-menu-button setToggler" data-entrustby="click" data-entrustto=".catalog-aside">

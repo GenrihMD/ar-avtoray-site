@@ -19,8 +19,10 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 </div>
 <header class="container page-header">
     <div class="row">
-        <div class="logo"><img class="d-none d-md-block" src="/assets/img/logo.png"/><img class="d-md-none"
-                                                                                  src="/assets/img/logo-mobile.png"/></div>
+        <a href="/" class="logo">
+            <img class="d-none d-md-block" src="/assets/img/logo.png"/>
+            <img class="d-md-none" src="/assets/img/logo-mobile.png"/>
+        </a>
         <div class="menu-holder">
             <div class="menu-burger d-lg-none by-click-changable hide-main-on-set">
                 <!--img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAKklEQVQ4T2Nk0I76z0AFwEg9g6jgGpARjFQyZ1AaNBprhGJ3MEb/YIs1AHWgCSfyTtLzAAAAAElFTkSuQmCC')--></div>
@@ -28,8 +30,12 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                 <div class="menu__item by-click-changable by-mouseleave-resetable">
                     <div class="link link-type-e with-submenu">Автомобили</div>
                     <div class="menu_submenu">
-                        <div class="submenu__item">Автомобили с пробегом</div>
-                        <div class="submenu__item">Новые автомобили</div>
+                        <a href="/catalog/?arrFilter_136_MIN=1&set_filter=Показать">
+                            <div class="submenu__item">Автомобили с пробегом</div>
+                        </a>
+                        <a href="/catalog/?arrFilter_136_MAX=0&set_filter=Показать">
+                            <div class="submenu__item">Новые автомобили</div>
+                        </a>
                         <div class="submenu__item">Заявка на тест-драйв</div>
                         <div class="submenu__item">Продать свой автомобиль</div>
                         <div class="submenu__item">Обменять свой автомобиль</div>

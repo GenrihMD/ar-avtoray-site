@@ -11,6 +11,14 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
+if ($_GET["SORT_BY"]) {
+
+}
+$arParams["SORT_BY1"] = "property_PRICE";
+$arParams["SORT_ORDER1"] = "ASC";
+$arParams["SORT_BY2"] = "property_YEAR";
+$arParams["SORT_ORDER2"] = "DESC";
 ?>
 
 <? if ($arParams["USE_RSS"] == "Y"): ?>
@@ -44,12 +52,11 @@ $this->setFrameMode(true);
             <aside class="catalog-aside col-12 col-lg-3">
             <? $APPLICATION->IncludeComponent(
                     "bitrix:catalog.smart.filter",
-                    "",
+	                "catalog_filter",
                     Array(
                         "CACHE_GROUPS" => "Y",
                         "CACHE_TIME" => "36000000",
                         "CACHE_TYPE" => "A",
-                        "COMPONENT_TEMPLATE" => "visual_vertical",
                         "DISPLAY_ELEMENT_COUNT" => "Y",
                         "FILTER_NAME" => "arrFilter",
                         "IBLOCK_ID" => "2",
@@ -69,7 +76,6 @@ $this->setFrameMode(true);
                 ); ?>
             </aside>
             <? endif ?>
-
 
             <div class="catalog-container col-12 col-lg-9 unSeter" data-entrustby="click"
                  data-entrustto=".catalog-aside">

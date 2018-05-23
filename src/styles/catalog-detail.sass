@@ -1,32 +1,33 @@
 main.catalog-detail
   background-color: #fafbfc
   padding-bottom: 30px
+  padding-top: 16px
+  .action-buttons.row
+    padding-right: 15px
+    padding-left: 15px
+    padding-top: 16px
+    .action-buttons__button
+      padding-left: 4px
+      padding-right: 4px
+      margin: 4px 0
 .container
   .row
-    .col-12.col-lg-7
-      .slider
-        .slides
-          .slide
-            background-color: #555666
-            img
-              width: 100%
-              min-height: 300px
-              height: auto
-        .dots
-          .dot
-            width: 8px
-            height: 8px
-            background-color: #002b5a
-            opacity: 0.4
-            img
-              display: none
-      .action-buttons.row
-        padding-right: 15px
-        padding-left: 15px
-        .action-buttons__button
-          padding-left: 4px
-          padding-right: 4px
-          margin: 4px 0
+    .slider
+      .slides
+        .slide
+          background-color: #555666
+          img
+            width: 100%
+            min-height: 300px
+            height: auto
+      .dots
+        .dot
+          width: 8px
+          height: 8px
+          background-color: #002b5a
+          opacity: 0.4
+          img
+            display: none
     .right-panel
       padding: 16px
       border: 1px solid #d7dee5
@@ -41,15 +42,23 @@ main.catalog-detail
         @media (min-width: 750px)
           font-size: 28px
       .features.row
+        padding-bottom: 8px
+        border-bottom: 1px solid #d7dee5
         .feature
           display: flex
+          align-items: center
+          padding-bottom: 8px
           .icon
             display: flex
+            align-items: center
+            justify-content: center
+            padding-right: 6px
           .faeture__name
             color: #96a7bb
             font-family: Circe, sans-serif
             font-size: 16px
             font-weight: 400
+            padding-right: 8px
           .feature__value
             color: #000000
             font-family: Circe, sans-serif
@@ -59,8 +68,6 @@ main.catalog-detail
         color: #000000
         font-family: Circe, sans-serif
         font-size: 16px
-        padding-bottom: 8px
-        border-bottom: 1px solid #d7dee5
         h2
           font-size: 16px
           font-weight: 700
@@ -70,6 +77,7 @@ main.catalog-detail
 
       .buy-and-price__holder.row
         align-items: center
+        padding-top: 8px
         .price
           display: flex
           justify-content: center
