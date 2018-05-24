@@ -15,11 +15,21 @@ main.catalog-detail
     .slider
       .slides
         .slide
+          position: relative
           background-color: #555666
           img
             width: 100%
             min-height: 300px
             height: auto
+          &:after
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            content: ' '
+            box-shadow: inset 0 0 40px rgba(0, 43, 90, 0.04)
+            background-color: rgba(0, 43, 90, 0.04)
       .dots
         .dot
           width: 8px
@@ -28,7 +38,8 @@ main.catalog-detail
           opacity: 0.4
           img
             display: none
-    .right-panel
+    .right-panel,
+    .bottom-panel
       padding: 16px
       border: 1px solid #d7dee5
       background-color: #ffffff
@@ -111,7 +122,9 @@ main.catalog-detail
           font-family: Circe, sans-serif
           font-size: 14px
           font-weight: 400
-          
+    .bottom-panel
+      margin-top: 10px
+
 .detail__desc-collapser
   position: relative
   display: flex
