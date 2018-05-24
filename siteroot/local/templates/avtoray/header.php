@@ -19,7 +19,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 </div>
 <header class="container page-header">
     <div class="row">
-        <a href="/" class="logo">
+        <a href="http://avtoray.ru/" class="logo">
             <img class="d-none d-md-block" src="/assets/img/logo.png"/>
             <img class="d-md-none" src="/assets/img/logo-mobile.png"/>
         </a>
