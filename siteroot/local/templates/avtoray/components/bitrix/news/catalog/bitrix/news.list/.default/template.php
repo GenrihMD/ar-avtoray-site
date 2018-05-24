@@ -54,29 +54,41 @@ $sortByPriceGetParam = http_build_query($_GET_sortByPrice);
         </div>
     </section>
 </div>
-<div class="catalog-sort filter-container">
-    <div class="sorters">
-        <div class="sorters-title">Сортировать:</div>
-        <a href="/catalog/?<?php echo $sortByPriceGetParam ?>" class="sorter">
-            <div class="link-type-d by-click-changable <?php echo $_SESSION['sortByPriceClass']?>">
-                По цене
+<?php
+if (empty($arResult["ITEMS"])) {
+    ?>
+<div class="response-is-empty">
+    <p class="text">
+        ПО ВАШЕМУ ЗАПРОСУ НИЧЕГО НЕ НАЙДЕНО
+    </p>
+</div>
+    <?
+} else {
+?>
+    <div class="catalog-sort filter-container">
+        <div class="sorters">
+            <div class="sorters-title">Сортировать:</div>
+            <a href="/catalog/?<?php echo $sortByPriceGetParam ?>" class="sorter">
+                <div class="link-type-d by-click-changable <?php echo $_SESSION['sortByPriceClass'] ?>">
+                    По цене
+                </div>
+            </a>
+            <a href="/catalog/?<?php echo $sortByYearGetParam ?>" class="sorter">
+                <div class="link-type-d by-click-changable <?php echo $_SESSION['sortByYearClass'] ?>">
+                    По году
+                </div>
+            </a>
+        </div>
+        <div class="filter-menu-button setToggler" data-entrustby="click" data-entrustto=".catalog-aside">
+            <div class="text">Подобрать по параметрам</div>
+            <div class="circled-image"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAm0lEQVQ4T42SsRHCMBAE90ic0gnuAEqwu2GIlOFuoATogFJISfyMJGaYsSy9L32d5n7/RFSwPR9uwAl40DES9E6zisTFAsYBQ0waONsdYRgv3zjTp8dXjckYtfOM/6jRcASedAx+1Fae5o6esQIuw5mxBr5+DVw2tlQBJy/p78YFON9YLcBysLFFJRyxCmP5fwlnY4vKHXNUt0VfEVZb3Nknrw8AAAAASUVORK5CYII="/>
             </div>
-        </a>
-        <a href="/catalog/?<?php echo $sortByYearGetParam ?>" class="sorter">
-            <div class="link-type-d by-click-changable <?php echo $_SESSION['sortByYearClass']?>">
-                По году
-            </div>
-        </a>
-    </div>
-    <div class="filter-menu-button setToggler" data-entrustby="click" data-entrustto=".catalog-aside">
-        <div class="text">Подобрать по параметрам</div>
-        <div class="circled-image"><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAm0lEQVQ4T42SsRHCMBAE90ic0gnuAEqwu2GIlOFuoATogFJISfyMJGaYsSy9L32d5n7/RFSwPR9uwAl40DES9E6zisTFAsYBQ0waONsdYRgv3zjTp8dXjckYtfOM/6jRcASedAx+1Fae5o6esQIuw5mxBr5+DVw2tlQBJy/p78YFON9YLcBysLFFJRyxCmP5fwlnY4vKHXNUt0VfEVZb3Nknrw8AAAAASUVORK5CYII="/>
         </div>
     </div>
-</div>
 
 <div class="catalog-cards">
+
 
     <? foreach ($arResult["ITEMS"] as $arItem):
         $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -169,7 +181,8 @@ $sortByPriceGetParam = http_build_query($_GET_sortByPrice);
             </a>
         </article>
 
-    <? endforeach; ?>
+    <? endforeach;
+    } ?>
 
 
 </div>
