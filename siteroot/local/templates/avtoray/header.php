@@ -47,8 +47,17 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                 <div class="menu__item">
                     <div class="link-type-e link">Спецпредложения</div>
                 </div>
-                <div class="menu__item">
-                    <div class="link-type-e link">О компании</div>
+                <div class="menu__item by-click-changable by-mouseleave-resetable">
+                    <div class="link link-type-e with-submenu">О компании</div>
+                    <div class="menu_submenu">
+                        <div class="submenu__item">Авторай сегодня</div>
+
+                        <div class="submenu__item">История и достижения</div>
+
+                        <div class="submenu__item">Отзывы</div>
+                        <div class="submenu__item">Вакансии</div>
+                        <div class="submenu__item">Подать резюме</div>
+                    </div>
                 </div>
             </nav>
         </div>
