@@ -4,7 +4,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Заголовок</title>
+<head>
     <meta name="description" content="auto"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8"/><?
