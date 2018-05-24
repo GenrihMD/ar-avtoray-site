@@ -111,6 +111,22 @@ main.catalog-detail
           font-family: Circe, sans-serif
           font-size: 14px
           font-weight: 400
+          
+.detail__desc-collapser
+  position: relative
+  display: flex
+  &:before
+    transform: scaleY(-1)
+    content: ' '
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAdUlEQVQYV2NkQAJ7j16TB3GdrbUewoQZYYz9x6/E/2dkbATxGf//r3e01FkIZjf8/89ke/LaXIb//xmcLXUSQYJ7j1+Zz8DIyHDYXCuZcd+JK/f+/2dscrbUXoBi3fGrCYyM/+sY9x+/ruBoqfkAWRJh7XUFANLmKjtUjU+lAAAAAElFTkSuQmCC")
+    background-position: center center
+    background-repeat: no-repeat
+    margin-top: 4px
+    height: 3px
+    width: 8px
+    transition: all .3s
+  &.open:before
+    transform: scaleY(1)
 
 @import "catalog-details-map"
 @import "may-interest"

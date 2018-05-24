@@ -1,5 +1,6 @@
 import './plugins/vanilla.js';
-import noUiSlider from './vendor/nouislider/nouislider.min.js';
+import $ from '../../../node_modules/jquery/dist/jquery';
+// import noUiSlider from './vendor/nouislider/nouislider.min.js';
 // import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import './components.js';
 
@@ -128,5 +129,14 @@ document
         .querySelectorAll('.filter-container .main')
         .forEach(x => x.style.height = getRealHeight(x) + 'px');
 
+      document
+        .querySelectorAll('.jq-collapser')
+        .addEventListener('click', function () {
+          $(this).siblings('.jq-collapsed').slideToggle("slow", function () {
+            $(this).siblings('.jq-collapser').toggleClass('open');
+          });
+        });
+
+      $('.jq-collapsed').slideUp();
 
     });
