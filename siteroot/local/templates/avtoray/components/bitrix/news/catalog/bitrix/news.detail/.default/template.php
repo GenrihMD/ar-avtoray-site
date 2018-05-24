@@ -12,7 +12,13 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(false);
 
+
 $props = $arResult["DISPLAY_PROPERTIES"];
+
+$page_title = $props['MARK']['DISPLAY_VALUE'] . " - " . $props['MODEL']['DISPLAY_VALUE'];
+$APPLICATION->SetTitle($page_title);
+$APPLICATION->SetPageProperty('title', $page_title);
+
 $dealerLink = $props['CAR_DEALER'];
 $dealerLinkValue = (int)$dealerLink['VALUE'];
 $dealerElementID = $dealerLinkValue;
@@ -221,7 +227,7 @@ $t['displacement'] = round($t['displacement'] / 1000, 1); ?>
                 </div>
             </div>
             <div class="col-12">
-                <div class="right-panel">
+                <div class="right-panel bottom-panel">
                     <div class="desctiption">
                         <div class="catalog-presets-filter filter-container container"
                              style="border: none; cursor: pointer">
