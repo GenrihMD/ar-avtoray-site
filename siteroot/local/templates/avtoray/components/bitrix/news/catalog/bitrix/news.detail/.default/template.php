@@ -35,7 +35,7 @@ else
 
 $interestedElements = CIBlockElement::GetList(
     Array("PROPERTY_PRICE" => "ASC"),
-    Array("IBLOCK_ID" => 2, ">=PROPERTY_PRICE" => $props['PRICE']['VALUE']),
+    Array("IBLOCK_ID" => 2, ">=PROPERTY_PRICE" => $props['PRICE']['VALUE'], "!PROPERTY_MARK" => $props['MARK']['VALUE']),
     false,
     Array("nTopCount" => 4),
     Array()
@@ -85,11 +85,11 @@ $t = [
 
 $t['price'] = number_format($t['price'], 0, ',', ' ');
 $t['run'] = $t['run'] > 0 ? $t['run'] . ' ' . $t['run'] : 'без пробега';
-$t['additional_info_exterior'] = str_replace('•', '<br>•', $t['additional_info_exterior']);
-$t['additional_info_interior'] = str_replace('•', '<br>•', $t['additional_info_interior']);
-$t['additional_info_safety'] = str_replace('•', '<br>•', $t['additional_info_safety']);
-$t['additional_info_comfort'] = str_replace('•', '<br>•', $t['additional_info_comfort']);
-$t['additional_info_warranty'] = str_replace('•', '<br>•', $t['additional_info_warranty']);
+$t['additional_info_exterior'] = str_replace("*","",str_replace('•', '<br>•', $t['additional_info_exterior']));
+$t['additional_info_interior'] = str_replace("*","",str_replace('•', '<br>•', $t['additional_info_interior']));
+$t['additional_info_safety'] = str_replace("*","",str_replace('•', '<br>•', $t['additional_info_safety']));
+$t['additional_info_comfort'] = str_replace("*","",str_replace('•', '<br>•', $t['additional_info_comfort']));
+$t['additional_info_warranty'] = str_replace("*","",str_replace('•', '<br>•', $t['additional_info_warranty']));
 $t['displacement'] = round($t['displacement'] / 1000, 1); ?>
     <main class="catalog-detail">
     <div class="container">
