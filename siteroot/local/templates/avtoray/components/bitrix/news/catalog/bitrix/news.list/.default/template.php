@@ -191,7 +191,7 @@ if (empty($arResult["ITEMS"])) {
     <br/><?= $arResult["NAV_STRING"] ?>
 <? endif; ?>
 
-<div class="catalog-pagination">
+<!--div class="catalog-pagination">
     <div class="catalog-pagination__buttons">
         <div class="button-type-f">1</div>
         <div class="button-type-f set">2</div>
@@ -201,5 +201,5 @@ if (empty($arResult["ITEMS"])) {
         <div class="button-type-f">...</div>
         <div class="button-type-f">999</div>
     </div>
-</div>
+</div-->
 
