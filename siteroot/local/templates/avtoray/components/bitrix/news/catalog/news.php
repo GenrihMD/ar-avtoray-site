@@ -45,6 +45,12 @@ if ($_GET["SORT_BY"]) {
 }
 
 
+
+if ($_GET["arrFilter_136_MIN"] == 1 && $_GET["arrFilter_136_MAX"] == 1) {
+    unset($_GET["arrFilter_136_MIN"]);
+    unset($_GET["arrFilter_136_MAX"]);
+}
+
 ?>
 
 <? if ($arParams["USE_RSS"] == "Y"): ?>
