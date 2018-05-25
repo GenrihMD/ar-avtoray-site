@@ -82,6 +82,15 @@ main.catalog
               opacity: 0.4
               &.set, &.active
                 opacity: 1
+          &:after
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            content: ' '
+            box-shadow: inset 0 0 40px rgba(0, 43, 90, 0.04)
+            background-color: rgba(0, 43, 90, 0.04)
         .catalog-card__title
           padding-top: 16px
           display: flex
@@ -298,6 +307,21 @@ aside.catalog-aside
     justify-content: flex-end
     > div
       margin-left: 8px
+
+.response-is-empty
+  border-top: 1px solid #d7dee5
+  padding-top: 20px
+  p.text
+    width: 100%
+    text-align: center
+    display: flex
+    align-items: center
+    color: #dc291a
+    font-family: Circe, sans-serif
+    font-size: 14px
+    font-weight: 400
+    margin-bottom: 0
+    line-height: 1
 
 @keyframes filter-outside-slide-in
   0%
