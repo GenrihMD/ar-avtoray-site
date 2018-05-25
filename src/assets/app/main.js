@@ -1,6 +1,6 @@
 import './plugins/vanilla.js';
 import $ from '../../../node_modules/jquery/dist/jquery';
-// import noUiSlider from './vendor/nouislider/nouislider.min.js';
+import noUiSlider from './vendor/nouislider/nouislider.min.js';
 // import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import './components.js';
 
