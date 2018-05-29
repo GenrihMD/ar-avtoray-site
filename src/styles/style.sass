@@ -6,6 +6,12 @@
 @import "./catalog"
 @import "./catalog-detail"
 
+a:hover
+  text-decoration: none
+
+*
+  line-height: 1.2
+
 header.page-header
   padding: 16px 15px
   position: relative
@@ -148,3 +154,35 @@ footer
     font-family: Circe, sans-serif
     font-size: 14px
     font-weight: 400
+  .footer-menu
+    border-top: 1px solid #d7dee5
+    section.panel
+      padding-top: 16px
+      padding-bottom: 24px
+      .header
+        h1, .h1-like
+          color: #002b5a
+          font-family: Circe, sans-serif
+          font-size: 18px
+          font-weight: 700
+
+      .links
+        p
+          color: #96a7bb
+          font-family: Circe, sans-serif
+          font-size: 14px
+          font-weight: 400
+          margin-bottom: 8px
+          line-height: 1.5
+        .h1-like
+          color: #002b5a
+          font-family: Circe, sans-serif
+          font-size: 18px
+          font-weight: 700
+          line-height: 1.2
+        .socials
+          a+a
+            margin-left: 8px
+
+      @media (min-width: 750px)
+        padding-top: 32px
