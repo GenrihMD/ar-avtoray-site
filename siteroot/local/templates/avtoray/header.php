@@ -30,12 +30,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                 <div class="menu__item by-click-changable by-mouseleave-resetable">
                     <div class="link link-type-e with-submenu">Автомобили</div>
                     <div class="menu_submenu">
-                        <a href="/catalog/?arrFilter_136_MIN=1&set_filter=Показать">
-                            <div class="submenu__item">Автомобили с пробегом</div>
-                        </a>
-                        <a href="/catalog/?arrFilter_136_MAX=0&set_filter=Показать">
-                            <div class="submenu__item">Новые автомобили</div>
-                        </a>
+                        <a href="/catalog/?arrFilter_136_MIN=1&set_filter=Показать" class="submenu__item">Автомобили с пробегом</a>
+                        <a href="/catalog/?arrFilter_136_MAX=0&set_filter=Показать" class="submenu__item">Новые автомобили</a>
                         <div class="submenu__item">Заявка на тест-драйв</div>
                         <div class="submenu__item">Продать свой автомобиль</div>
                         <div class="submenu__item">Обменять свой автомобиль</div>
@@ -51,9 +47,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                     <div class="link link-type-e with-submenu">О компании</div>
                     <div class="menu_submenu">
                         <div class="submenu__item">Авторай сегодня</div>
-
                         <div class="submenu__item">История и достижения</div>
-
                         <div class="submenu__item">Отзывы</div>
                         <div class="submenu__item">Вакансии</div>
                         <div class="submenu__item">Подать резюме</div>
